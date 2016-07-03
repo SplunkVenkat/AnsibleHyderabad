@@ -1,0 +1,6 @@
+- hosts: "{{ host }}"
+  become: yes
+  vars:
+    jenkins_hostname: "ec2-54-187-184-197.us-west-2.compute.amazonaws.com"
+  roles:
+    - geerlingguy.jenkins

@@ -1,0 +1,2001 @@
+2016-07-01 13:48:46,185 p=4695 u=root |    hosts (5):
+2016-07-01 13:48:46,185 p=4695 u=root |      rhel-01
+2016-07-01 13:48:46,186 p=4695 u=root |      rhel-02
+2016-07-01 13:48:46,186 p=4695 u=root |      rhel-03
+2016-07-01 13:48:46,186 p=4695 u=root |      deb-01
+2016-07-01 13:48:46,186 p=4695 u=root |      deb-02
+2016-07-01 13:48:55,391 p=4699 u=root |  rhel-03 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh.", 
+    "unreachable": true
+}
+2016-07-01 13:49:15,687 p=4699 u=root |   [ERROR]: User interrupted execution
+
+2016-07-01 13:49:34,985 p=4723 u=root |  rhel-01 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-01 13:49:51,262 p=4737 u=root |  rhel-02 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-01 13:51:30,329 p=4757 u=root |  deb-02 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh.", 
+    "unreachable": true
+}
+2016-07-01 13:51:30,330 p=4757 u=root |  deb-01 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh.", 
+    "unreachable": true
+}
+2016-07-01 13:51:35,295 p=4757 u=root |  rhel-03 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-01 13:51:35,596 p=4757 u=root |  rhel-01 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-01 13:51:35,600 p=4757 u=root |  rhel-02 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-01 13:52:35,194 p=4798 u=root |  rhel-01 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-01 13:52:35,196 p=4798 u=root |  rhel-03 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-01 13:52:35,197 p=4798 u=root |  rhel-02 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-01 13:52:40,808 p=4798 u=root |  deb-02 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-01 13:52:40,836 p=4798 u=root |  deb-01 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-01 13:59:21,505 p=4846 u=root |    hosts (5):
+2016-07-01 13:59:21,505 p=4846 u=root |      rhel-01
+2016-07-01 13:59:21,505 p=4846 u=root |      rhel-02
+2016-07-01 13:59:21,505 p=4846 u=root |      rhel-03
+2016-07-01 13:59:21,505 p=4846 u=root |      deb-01
+2016-07-01 13:59:21,506 p=4846 u=root |      deb-02
+2016-07-01 14:02:40,961 p=4881 u=root |  deb-01 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-01 14:02:41,302 p=4881 u=root |  rhel-01 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-01 14:02:41,313 p=4881 u=root |  rhel-03 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-01 14:02:41,430 p=4881 u=root |  deb-02 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-01 14:02:41,474 p=4881 u=root |  rhel-02 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-01 14:03:00,489 p=4932 u=root |    hosts (5):
+2016-07-01 14:03:00,489 p=4932 u=root |      rhel-01
+2016-07-01 14:03:00,489 p=4932 u=root |      rhel-02
+2016-07-01 14:03:00,490 p=4932 u=root |      rhel-03
+2016-07-01 14:03:00,490 p=4932 u=root |      deb-01
+2016-07-01 14:03:00,490 p=4932 u=root |      deb-02
+2016-07-01 14:03:29,332 p=4936 u=root |    hosts (5):
+2016-07-01 14:03:29,333 p=4936 u=root |      rhel-01
+2016-07-01 14:03:29,333 p=4936 u=root |      rhel-02
+2016-07-01 14:03:29,333 p=4936 u=root |      rhel-03
+2016-07-01 14:03:29,333 p=4936 u=root |      deb-01
+2016-07-01 14:03:29,333 p=4936 u=root |      deb-02
+2016-07-01 14:04:15,444 p=4940 u=root |  deb-02 | SUCCESS | rc=0 >>
+ip-172-31-26-151
+
+2016-07-01 14:04:15,550 p=4940 u=root |  rhel-03 | SUCCESS | rc=0 >>
+ip-172-31-27-227.us-west-2.compute.internal
+
+2016-07-01 14:04:15,637 p=4940 u=root |  deb-01 | SUCCESS | rc=0 >>
+ip-172-31-26-152
+
+2016-07-01 14:04:15,727 p=4940 u=root |  rhel-01 | SUCCESS | rc=0 >>
+ip-172-31-27-226.us-west-2.compute.internal
+
+2016-07-01 14:04:17,405 p=4940 u=root |  rhel-02 | SUCCESS | rc=0 >>
+ip-172-31-27-225.us-west-2.compute.internal
+
+2016-07-01 14:05:42,206 p=4997 u=root |  playbook: TestPlaybook.yml
+2016-07-01 14:05:42,207 p=4997 u=root |    play #1 (rhel-01): rhel-01	TAGS: []
+2016-07-01 14:05:42,210 p=4997 u=root |      tasks:
+      Find uptime	TAGS: []
+
+2016-07-01 14:05:52,937 p=5001 u=root |  playbook: TestPlaybook.yml
+2016-07-01 14:05:52,937 p=5001 u=root |    play #1 (rhel-01): rhel-01	TAGS: []
+    pattern: [u'rhel-01']
+    hosts (1):
+      rhel-01
+2016-07-01 14:06:02,553 p=5005 u=root |  PLAY [rhel-01] *****************************************************************
+2016-07-01 14:06:02,567 p=5005 u=root |  TASK [Find uptime] *************************************************************
+2016-07-01 14:06:10,166 p=5005 u=root |  skipping: [rhel-01]
+2016-07-01 14:06:10,168 p=5005 u=root |  PLAY RECAP *********************************************************************
+2016-07-01 14:06:10,168 p=5005 u=root |  rhel-01                    : ok=0    changed=0    unreachable=0    failed=0   
+2016-07-01 14:06:24,522 p=5020 u=root |  playbook: TestPlaybook.yml
+2016-07-01 14:06:36,241 p=5024 u=root |  PLAY [rhel-01] *****************************************************************
+2016-07-01 14:06:36,255 p=5024 u=root |  TASK [Find uptime] *************************************************************
+2016-07-01 14:06:40,752 p=5024 u=root |  changed: [rhel-01]
+2016-07-01 14:06:40,754 p=5024 u=root |  PLAY RECAP *********************************************************************
+2016-07-01 14:06:40,754 p=5024 u=root |  rhel-01                    : ok=1    changed=1    unreachable=0    failed=0   
+2016-07-01 14:08:06,476 p=5038 u=root |  PLAY [rhel-01] *****************************************************************
+2016-07-01 14:08:06,490 p=5038 u=root |  TASK [Find uptime] *************************************************************
+2016-07-01 14:08:14,066 p=5038 u=root |  changed: [rhel-01]
+2016-07-01 14:08:14,076 p=5038 u=root |  TASK [debug] *******************************************************************
+2016-07-01 14:08:14,141 p=5038 u=root |  ok: [rhel-01] => {
+    "UpTimeOutput": {
+        "changed": true, 
+        "cmd": [
+            "uptime"
+        ], 
+        "delta": "0:00:00.002943", 
+        "end": "2016-07-01 04:38:06.437304", 
+        "rc": 0, 
+        "start": "2016-07-01 04:38:06.434361", 
+        "stderr": "", 
+        "stdout": " 04:38:06 up  1:21,  1 user,  load average: 0.00, 0.01, 0.05", 
+        "stdout_lines": [
+            " 04:38:06 up  1:21,  1 user,  load average: 0.00, 0.01, 0.05"
+        ], 
+        "warnings": []
+    }
+}
+2016-07-01 14:08:14,146 p=5038 u=root |  PLAY RECAP *********************************************************************
+2016-07-01 14:08:14,146 p=5038 u=root |  rhel-01                    : ok=2    changed=1    unreachable=0    failed=0   
+2016-07-01 14:08:47,928 p=5057 u=root |  PLAY [rhel-01] *****************************************************************
+2016-07-01 14:08:47,944 p=5057 u=root |  TASK [Find uptime] *************************************************************
+2016-07-01 14:08:52,227 p=5057 u=root |  changed: [rhel-01]
+2016-07-01 14:08:52,229 p=5057 u=root |  TASK [debug] *******************************************************************
+2016-07-01 14:08:52,277 p=5057 u=root |  ok: [rhel-01] => {
+    "UpTimeOutput.stdout_lines": [
+        " 04:38:44 up  1:21,  1 user,  load average: 0.00, 0.01, 0.05"
+    ]
+}
+2016-07-01 14:08:52,279 p=5057 u=root |  PLAY RECAP *********************************************************************
+2016-07-01 14:08:52,280 p=5057 u=root |  rhel-01                    : ok=2    changed=1    unreachable=0    failed=0   
+2016-07-01 14:10:05,844 p=5072 u=root |  playbook: TestPlaybook.yml
+2016-07-01 14:10:05,844 p=5072 u=root |    play #1 (rhel-01): rhel-01	TAGS: []
+2016-07-01 14:10:05,847 p=5072 u=root |      tasks:
+      Find uptime	TAGS: []
+      debug	TAGS: []
+
+2016-07-01 16:34:03,532 p=5230 u=root |  - downloading role 'jenkins', owned by geerlingguy
+2016-07-01 16:34:10,565 p=5230 u=root |  - downloading role from https://github.com/geerlingguy/ansible-role-jenkins/archive/2.0.0.tar.gz
+2016-07-01 16:34:19,357 p=5230 u=root |  - extracting geerlingguy.jenkins to ./roles/geerlingguy.jenkins
+2016-07-01 16:34:19,375 p=5230 u=root |  - geerlingguy.jenkins was installed successfully
+2016-07-01 16:34:19,376 p=5230 u=root |  - adding dependency: geerlingguy.java
+2016-07-01 16:34:22,580 p=5230 u=root |  - downloading role 'java', owned by geerlingguy
+2016-07-01 16:34:30,362 p=5230 u=root |  - downloading role from https://github.com/geerlingguy/ansible-role-java/archive/1.4.0.tar.gz
+2016-07-01 16:34:40,311 p=5230 u=root |  - extracting geerlingguy.java to ./roles/geerlingguy.java
+2016-07-01 16:34:40,325 p=5230 u=root |  - geerlingguy.java was installed successfully
+2016-07-01 16:36:59,865 p=5243 u=root |  playbook: TestRole.yml
+2016-07-01 16:36:59,865 p=5243 u=root |    play #1 (rhel-01): rhel-01	TAGS: []
+    pattern: [u'rhel-01']
+    hosts (1):
+      rhel-01
+2016-07-01 16:37:09,810 p=5247 u=root |  playbook: TestRole.yml
+2016-07-01 16:37:09,810 p=5247 u=root |    play #1 (rhel-01): rhel-01	TAGS: []
+2016-07-01 16:37:09,824 p=5247 u=root |      tasks:
+      geerlingguy.java : Include OS-specific variables.	TAGS: []
+      geerlingguy.java : Include version-specific variables for Ubuntu.	TAGS: []
+      geerlingguy.java : Define java_packages.	TAGS: []
+      include	TAGS: []
+      include	TAGS: []
+      include	TAGS: []
+      geerlingguy.jenkins : Include OS-Specific variables	TAGS: []
+      geerlingguy.jenkins : Define jenkins_repo_url	TAGS: []
+      geerlingguy.jenkins : Define jenkins_repo_key_url	TAGS: []
+      include	TAGS: []
+      include	TAGS: []
+      include	TAGS: []
+      geerlingguy.jenkins : Ensure Jenkins is started and runs on startup.	TAGS: []
+      geerlingguy.jenkins : Wait for Jenkins to start up before proceeding.	TAGS: []
+      geerlingguy.jenkins : Get the jenkins-cli jarfile from the Jenkins server.	TAGS: []
+      include	TAGS: []
+
+2016-07-01 16:37:19,507 p=5251 u=root |  playbook: TestRole.yml
+2016-07-01 16:37:19,507 p=5251 u=root |    play #1 (rhel-01): rhel-01	TAGS: []
+2016-07-01 16:37:19,519 p=5251 u=root |        TASK TAGS: []
+
+2016-07-01 16:37:36,097 p=5255 u=root |  playbook: TestRole.yml
+2016-07-01 16:37:42,703 p=5259 u=root |  PLAY [rhel-01] *****************************************************************
+2016-07-01 16:37:42,753 p=5259 u=root |  TASK [setup] *******************************************************************
+2016-07-01 16:37:51,208 p=5259 u=root |  ok: [rhel-01]
+2016-07-01 16:37:51,219 p=5259 u=root |  TASK [geerlingguy.java : Include OS-specific variables.] ***********************
+2016-07-01 16:37:51,307 p=5259 u=root |  ok: [rhel-01]
+2016-07-01 16:37:51,310 p=5259 u=root |  TASK [geerlingguy.java : Include version-specific variables for Ubuntu.] *******
+2016-07-01 16:37:51,369 p=5259 u=root |  skipping: [rhel-01]
+2016-07-01 16:37:51,372 p=5259 u=root |  TASK [geerlingguy.java : Define java_packages.] ********************************
+2016-07-01 16:37:51,460 p=5259 u=root |  ok: [rhel-01]
+2016-07-01 16:37:51,463 p=5259 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-01 16:37:51,526 p=5259 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/setup-RedHat.yml for rhel-01
+2016-07-01 16:37:51,538 p=5259 u=root |  TASK [geerlingguy.java : Ensure Java is installed.] ****************************
+2016-07-01 16:37:56,721 p=5259 u=root |  failed: [rhel-01] (item=[u'java-1.7.0-openjdk']) => {"failed": true, "item": ["java-1.7.0-openjdk"], "msg": "Failure talking to yum: Could not contact any CDS load balancers: rhui2-cds01.us-west-2.aws.ce.redhat.com, rhui2-cds02.us-west-2.aws.ce.redhat.com."}
+2016-07-01 16:37:56,729 p=5259 u=root |  	to retry, use: --limit @TestRole.retry
+
+2016-07-01 16:37:56,729 p=5259 u=root |  PLAY RECAP *********************************************************************
+2016-07-01 16:37:56,729 p=5259 u=root |  rhel-01                    : ok=4    changed=0    unreachable=0    failed=1   
+2016-07-01 16:38:22,466 p=5287 u=root |  PLAY [rhel-01] *****************************************************************
+2016-07-01 16:38:22,491 p=5287 u=root |  TASK [setup] *******************************************************************
+2016-07-01 16:38:27,166 p=5287 u=root |  ok: [rhel-01]
+2016-07-01 16:38:27,179 p=5287 u=root |  TASK [geerlingguy.java : Include OS-specific variables.] ***********************
+2016-07-01 16:38:27,260 p=5287 u=root |  ok: [rhel-01]
+2016-07-01 16:38:27,263 p=5287 u=root |  TASK [geerlingguy.java : Include version-specific variables for Ubuntu.] *******
+2016-07-01 16:38:27,318 p=5287 u=root |  skipping: [rhel-01]
+2016-07-01 16:38:27,321 p=5287 u=root |  TASK [geerlingguy.java : Define java_packages.] ********************************
+2016-07-01 16:38:27,394 p=5287 u=root |  ok: [rhel-01]
+2016-07-01 16:38:27,397 p=5287 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-01 16:38:27,464 p=5287 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/setup-RedHat.yml for rhel-01
+2016-07-01 16:38:27,476 p=5287 u=root |  TASK [geerlingguy.java : Ensure Java is installed.] ****************************
+2016-07-01 16:38:59,388 p=5287 u=root |  changed: [rhel-01] => (item=[u'java-1.7.0-openjdk'])
+2016-07-01 16:38:59,404 p=5287 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-01 16:38:59,454 p=5287 u=root |  skipping: [rhel-01]
+2016-07-01 16:38:59,456 p=5287 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-01 16:38:59,494 p=5287 u=root |  skipping: [rhel-01]
+2016-07-01 16:38:59,496 p=5287 u=root |  TASK [geerlingguy.jenkins : Include OS-Specific variables] *********************
+2016-07-01 16:38:59,582 p=5287 u=root |  ok: [rhel-01]
+2016-07-01 16:38:59,584 p=5287 u=root |  TASK [geerlingguy.jenkins : Define jenkins_repo_url] ***************************
+2016-07-01 16:38:59,647 p=5287 u=root |  ok: [rhel-01]
+2016-07-01 16:38:59,650 p=5287 u=root |  TASK [geerlingguy.jenkins : Define jenkins_repo_key_url] ***********************
+2016-07-01 16:38:59,711 p=5287 u=root |  ok: [rhel-01]
+2016-07-01 16:38:59,713 p=5287 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 16:38:59,781 p=5287 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/setup-RedHat.yml for rhel-01
+2016-07-01 16:38:59,792 p=5287 u=root |  TASK [geerlingguy.jenkins : Ensure dependencies are installed.] ****************
+2016-07-01 16:39:04,613 p=5287 u=root |  ok: [rhel-01]
+2016-07-01 16:39:04,616 p=5287 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins repo is installed.] *****************
+2016-07-01 16:39:09,629 p=5287 u=root |  changed: [rhel-01]
+2016-07-01 16:39:09,631 p=5287 u=root |  TASK [geerlingguy.jenkins : Add Jenkins repo GPG key.] *************************
+2016-07-01 16:39:14,851 p=5287 u=root |  changed: [rhel-01]
+2016-07-01 16:39:14,853 p=5287 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins is installed.] **********************
+2016-07-01 16:39:45,674 p=5287 u=root |  changed: [rhel-01]
+2016-07-01 16:39:45,684 p=5287 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 16:39:45,731 p=5287 u=root |  skipping: [rhel-01]
+2016-07-01 16:39:45,733 p=5287 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 16:39:45,806 p=5287 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/settings.yml for rhel-01
+2016-07-01 16:39:45,825 p=5287 u=root |  TASK [geerlingguy.jenkins : Ensure URL prefix is present in Jenkins config.] ***
+2016-07-01 16:39:50,266 p=5287 u=root |  changed: [rhel-01]
+2016-07-01 16:39:50,268 p=5287 u=root |  TASK [geerlingguy.jenkins : Immediately restart Jenkins on init config changes.] ***
+2016-07-01 16:39:55,677 p=5287 u=root |  changed: [rhel-01]
+2016-07-01 16:39:55,680 p=5287 u=root |  TASK [geerlingguy.jenkins : Set HTTP port in Jenkins config.] ******************
+2016-07-01 16:40:00,631 p=5287 u=root |  changed: [rhel-01]
+2016-07-01 16:40:00,642 p=5287 u=root |  TASK [geerlingguy.jenkins : Immediately restart Jenkins on http config changes.] ***
+2016-07-01 16:40:07,713 p=5287 u=root |  changed: [rhel-01]
+2016-07-01 16:40:07,715 p=5287 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins is started and runs on startup.] ****
+2016-07-01 16:40:13,005 p=5287 u=root |  ok: [rhel-01]
+2016-07-01 16:40:13,007 p=5287 u=root |  TASK [geerlingguy.jenkins : Wait for Jenkins to start up before proceeding.] ***
+2016-07-01 16:40:18,601 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (59 retries left).
+2016-07-01 16:40:28,036 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (58 retries left).
+2016-07-01 16:40:37,346 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (57 retries left).
+2016-07-01 16:40:46,586 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (56 retries left).
+2016-07-01 16:40:56,085 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (55 retries left).
+2016-07-01 16:41:05,786 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (54 retries left).
+2016-07-01 16:41:15,197 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (53 retries left).
+2016-07-01 16:41:24,610 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (52 retries left).
+2016-07-01 16:41:33,976 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (51 retries left).
+2016-07-01 16:41:42,960 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (50 retries left).
+2016-07-01 16:41:52,278 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (49 retries left).
+2016-07-01 16:42:01,701 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (48 retries left).
+2016-07-01 16:42:11,044 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (47 retries left).
+2016-07-01 16:42:20,361 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (46 retries left).
+2016-07-01 16:42:29,688 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (45 retries left).
+2016-07-01 16:42:39,101 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (44 retries left).
+2016-07-01 16:42:48,422 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (43 retries left).
+2016-07-01 16:42:57,962 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (42 retries left).
+2016-07-01 16:43:07,361 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (41 retries left).
+2016-07-01 16:43:16,672 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (40 retries left).
+2016-07-01 16:43:26,001 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (39 retries left).
+2016-07-01 16:43:35,928 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (38 retries left).
+2016-07-01 16:43:45,363 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (37 retries left).
+2016-07-01 16:43:54,634 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (36 retries left).
+2016-07-01 16:44:04,401 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (35 retries left).
+2016-07-01 16:44:14,026 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (34 retries left).
+2016-07-01 16:44:23,526 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (33 retries left).
+2016-07-01 16:44:32,766 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (32 retries left).
+2016-07-01 16:44:42,039 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (31 retries left).
+2016-07-01 16:44:51,303 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (30 retries left).
+2016-07-01 16:45:00,535 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (29 retries left).
+2016-07-01 16:45:10,059 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (28 retries left).
+2016-07-01 16:45:19,337 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (27 retries left).
+2016-07-01 16:45:28,477 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (26 retries left).
+2016-07-01 16:45:37,869 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (25 retries left).
+2016-07-01 16:45:47,134 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (24 retries left).
+2016-07-01 16:45:56,222 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (23 retries left).
+2016-07-01 16:46:05,441 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (22 retries left).
+2016-07-01 16:46:14,658 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (21 retries left).
+2016-07-01 16:46:23,769 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (20 retries left).
+2016-07-01 16:46:33,266 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (19 retries left).
+2016-07-01 16:46:42,279 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (18 retries left).
+2016-07-01 16:46:51,764 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (17 retries left).
+2016-07-01 16:47:01,017 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (16 retries left).
+2016-07-01 16:47:10,232 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (15 retries left).
+2016-07-01 16:47:19,576 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (14 retries left).
+2016-07-01 16:47:28,740 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (13 retries left).
+2016-07-01 16:47:37,880 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (12 retries left).
+2016-07-01 16:47:46,907 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (11 retries left).
+2016-07-01 16:47:56,222 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (10 retries left).
+2016-07-01 16:48:05,458 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (9 retries left).
+2016-07-01 16:48:14,883 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (8 retries left).
+2016-07-01 16:48:24,295 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (7 retries left).
+2016-07-01 16:48:34,264 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (6 retries left).
+2016-07-01 16:48:44,778 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (5 retries left).
+2016-07-01 16:48:54,477 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (4 retries left).
+2016-07-01 16:49:03,829 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (3 retries left).
+2016-07-01 16:49:13,038 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (2 retries left).
+2016-07-01 16:49:22,462 p=5287 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (1 retries left).
+2016-07-01 16:49:31,888 p=5287 u=root |  fatal: [rhel-01]: FAILED! => {"changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009255", "end": "2016-07-01 07:19:23.557589", "failed": true, "rc": 6, "start": "2016-07-01 07:19:23.548334", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:49:31,889 p=5287 u=root |  NO MORE HOSTS LEFT *************************************************************
+2016-07-01 16:49:31,891 p=5287 u=root |  	to retry, use: --limit @TestRole.retry
+
+2016-07-01 16:49:31,891 p=5287 u=root |  PLAY RECAP *********************************************************************
+2016-07-01 16:49:31,891 p=5287 u=root |  rhel-01                    : ok=19   changed=8    unreachable=0    failed=1   
+2016-07-01 16:50:56,502 p=5622 u=root |  Using /Users/rgodishela/ansible/day01/ansible.cfg as config file
+2016-07-01 16:50:56,645 p=5622 u=root |  Loaded callback default of type stdout, v2.0
+2016-07-01 16:50:56,674 p=5622 u=root |  PLAYBOOK: TestRole.yml *********************************************************
+2016-07-01 16:50:56,674 p=5622 u=root |  1 plays in TestRole.yml
+2016-07-01 16:50:56,681 p=5622 u=root |  PLAY [rhel-01] *****************************************************************
+2016-07-01 16:50:56,741 p=5622 u=root |  TASK [setup] *******************************************************************
+2016-07-01 16:51:05,069 p=5622 u=root |  ok: [rhel-01]
+2016-07-01 16:51:05,073 p=5622 u=root |  TASK [geerlingguy.java : Include OS-specific variables.] ***********************
+2016-07-01 16:51:05,073 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/main.yml:2
+2016-07-01 16:51:05,155 p=5622 u=root |  ok: [rhel-01] => {"ansible_facts": {"__java_packages": ["java-1.7.0-openjdk"]}, "changed": false, "invocation": {"module_args": {"_raw_params": "RedHat.yml"}, "module_name": "include_vars"}}
+2016-07-01 16:51:05,158 p=5622 u=root |  TASK [geerlingguy.java : Include version-specific variables for Ubuntu.] *******
+2016-07-01 16:51:05,158 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/main.yml:6
+2016-07-01 16:51:05,214 p=5622 u=root |  skipping: [rhel-01] => {"changed": false, "skip_reason": "Conditional check failed", "skipped": true}
+2016-07-01 16:51:05,217 p=5622 u=root |  TASK [geerlingguy.java : Define java_packages.] ********************************
+2016-07-01 16:51:05,218 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/main.yml:10
+2016-07-01 16:51:05,288 p=5622 u=root |  ok: [rhel-01] => {"ansible_facts": {"java_packages": ["java-1.7.0-openjdk"]}, "changed": false, "invocation": {"module_args": {"java_packages": ["java-1.7.0-openjdk"]}, "module_name": "set_fact"}}
+2016-07-01 16:51:05,290 p=5622 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-01 16:51:05,291 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/main.yml:16
+2016-07-01 16:51:05,355 p=5622 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/setup-RedHat.yml for rhel-01
+2016-07-01 16:51:05,369 p=5622 u=root |  TASK [geerlingguy.java : Ensure Java is installed.] ****************************
+2016-07-01 16:51:05,369 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/setup-RedHat.yml:2
+2016-07-01 16:51:10,285 p=5622 u=root |  ok: [rhel-01] => (item=[u'java-1.7.0-openjdk']) => {"changed": false, "invocation": {"module_args": {"conf_file": null, "disable_gpg_check": false, "disablerepo": null, "enablerepo": null, "exclude": null, "install_repoquery": true, "list": null, "name": ["java-1.7.0-openjdk"], "state": "installed", "update_cache": false, "validate_certs": true}, "module_name": "yum"}, "item": ["java-1.7.0-openjdk"], "msg": "", "rc": 0, "results": ["java-1.7.0-openjdk-1:1.7.0.101-2.6.6.1.el7_2.x86_64 providing java-1.7.0-openjdk is already installed"]}
+2016-07-01 16:51:10,293 p=5622 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-01 16:51:10,293 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/main.yml:19
+2016-07-01 16:51:10,336 p=5622 u=root |  skipping: [rhel-01] => {"changed": false, "skip_reason": "Conditional check failed", "skipped": true}
+2016-07-01 16:51:10,338 p=5622 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-01 16:51:10,339 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/main.yml:22
+2016-07-01 16:51:10,385 p=5622 u=root |  skipping: [rhel-01] => {"changed": false, "skip_reason": "Conditional check failed", "skipped": true}
+2016-07-01 16:51:10,388 p=5622 u=root |  TASK [geerlingguy.jenkins : Include OS-Specific variables] *********************
+2016-07-01 16:51:10,388 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/main.yml:3
+2016-07-01 16:51:10,475 p=5622 u=root |  ok: [rhel-01] => {"ansible_facts": {"__jenkins_repo_key_url": "http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key", "__jenkins_repo_url": "http://pkg.jenkins-ci.org/redhat/jenkins.repo", "jenkins_http_port_param": "JENKINS_PORT", "jenkins_init_file": "/etc/sysconfig/jenkins"}, "changed": false, "invocation": {"module_args": {"_raw_params": "RedHat.yml"}, "module_name": "include_vars"}}
+2016-07-01 16:51:10,477 p=5622 u=root |  TASK [geerlingguy.jenkins : Define jenkins_repo_url] ***************************
+2016-07-01 16:51:10,477 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/main.yml:6
+2016-07-01 16:51:10,542 p=5622 u=root |  ok: [rhel-01] => {"ansible_facts": {"jenkins_repo_url": "http://pkg.jenkins-ci.org/redhat/jenkins.repo"}, "changed": false, "invocation": {"module_args": {"jenkins_repo_url": "http://pkg.jenkins-ci.org/redhat/jenkins.repo"}, "module_name": "set_fact"}}
+2016-07-01 16:51:10,544 p=5622 u=root |  TASK [geerlingguy.jenkins : Define jenkins_repo_key_url] ***********************
+2016-07-01 16:51:10,544 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/main.yml:11
+2016-07-01 16:51:10,610 p=5622 u=root |  ok: [rhel-01] => {"ansible_facts": {"jenkins_repo_key_url": "http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key"}, "changed": false, "invocation": {"module_args": {"jenkins_repo_key_url": "http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key"}, "module_name": "set_fact"}}
+2016-07-01 16:51:10,612 p=5622 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 16:51:10,612 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/main.yml:17
+2016-07-01 16:51:10,690 p=5622 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/setup-RedHat.yml for rhel-01
+2016-07-01 16:51:10,700 p=5622 u=root |  TASK [geerlingguy.jenkins : Ensure dependencies are installed.] ****************
+2016-07-01 16:51:10,700 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/setup-RedHat.yml:2
+2016-07-01 16:51:15,550 p=5622 u=root |  ok: [rhel-01] => {"changed": false, "invocation": {"module_args": {"conf_file": null, "disable_gpg_check": false, "disablerepo": null, "enablerepo": null, "exclude": null, "install_repoquery": true, "list": null, "name": ["curl"], "pkg": "curl", "state": "installed", "update_cache": false, "validate_certs": true}, "module_name": "yum"}, "msg": "", "rc": 0, "results": ["curl-7.29.0-25.el7.x86_64 providing curl is already installed"]}
+2016-07-01 16:51:15,553 p=5622 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins repo is installed.] *****************
+2016-07-01 16:51:15,553 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/setup-RedHat.yml:5
+2016-07-01 16:51:20,179 p=5622 u=root |  ok: [rhel-01] => {"changed": false, "dest": "/etc/yum.repos.d/jenkins.repo", "gid": 0, "group": "root", "invocation": {"module_args": {"backup": false, "checksum": "", "content": null, "delimiter": null, "dest": "/etc/yum.repos.d/jenkins.repo", "directory_mode": null, "follow": false, "force": false, "force_basic_auth": false, "group": null, "headers": null, "http_agent": "ansible-httpget", "mode": null, "owner": null, "path": "/etc/yum.repos.d/jenkins.repo", "regexp": null, "remote_src": null, "selevel": null, "serole": null, "setype": null, "seuser": null, "sha256sum": "", "src": null, "timeout": 10, "tmp_dest": "", "url": "http://pkg.jenkins-ci.org/redhat/jenkins.repo", "url_password": null, "url_username": null, "use_proxy": true, "validate_certs": true}, "module_name": "get_url"}, "mode": "0644", "msg": "file already exists", "owner": "root", "secontext": "unconfined_u:object_r:system_conf_t:s0", "size": 71, "state": "file", "uid": 0, "url": "http://pkg.jenkins-ci.org/redhat/jenkins.repo"}
+2016-07-01 16:51:20,182 p=5622 u=root |  TASK [geerlingguy.jenkins : Add Jenkins repo GPG key.] *************************
+2016-07-01 16:51:20,182 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/setup-RedHat.yml:10
+2016-07-01 16:51:25,279 p=5622 u=root |  ok: [rhel-01] => {"changed": false, "invocation": {"module_args": {"key": "http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key", "state": "present", "validate_certs": true}, "module_name": "rpm_key"}}
+2016-07-01 16:51:25,281 p=5622 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins is installed.] **********************
+2016-07-01 16:51:25,281 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/setup-RedHat.yml:15
+2016-07-01 16:51:30,041 p=5622 u=root |  ok: [rhel-01] => {"changed": false, "invocation": {"module_args": {"conf_file": null, "disable_gpg_check": false, "disablerepo": null, "enablerepo": null, "exclude": null, "install_repoquery": true, "list": null, "name": ["jenkins"], "state": "installed", "update_cache": false, "validate_certs": true}, "module_name": "yum"}, "msg": "", "rc": 0, "results": ["jenkins-2.11-1.1.noarch providing jenkins is already installed"]}
+2016-07-01 16:51:30,043 p=5622 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 16:51:30,043 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/main.yml:20
+2016-07-01 16:51:30,078 p=5622 u=root |  skipping: [rhel-01] => {"changed": false, "skip_reason": "Conditional check failed", "skipped": true}
+2016-07-01 16:51:30,087 p=5622 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 16:51:30,087 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/main.yml:24
+2016-07-01 16:51:30,185 p=5622 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/settings.yml for rhel-01
+2016-07-01 16:51:30,215 p=5622 u=root |  TASK [geerlingguy.jenkins : Ensure URL prefix is present in Jenkins config.] ***
+2016-07-01 16:51:30,216 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/settings.yml:2
+2016-07-01 16:51:34,792 p=5622 u=root |  ok: [rhel-01] => {"backup": "", "changed": false, "diff": [{"after": "", "after_header": "/etc/sysconfig/jenkins (content)", "before": "", "before_header": "/etc/sysconfig/jenkins (content)"}, {"after_header": "/etc/sysconfig/jenkins (file attributes)", "before_header": "/etc/sysconfig/jenkins (file attributes)"}], "invocation": {"module_args": {"backrefs": false, "backup": false, "content": null, "create": false, "delimiter": null, "dest": "/etc/sysconfig/jenkins", "directory_mode": null, "follow": false, "force": null, "group": null, "insertafter": "^JENKINS_ARGS=", "insertbefore": null, "line": "JENKINS_ARGS+=\" --prefix=\"", "mode": null, "owner": null, "regexp": "^JENKINS_ARGS\\+=\" --prefix=", "remote_src": null, "selevel": null, "serole": null, "setype": null, "seuser": null, "src": null, "state": "present", "validate": null}, "module_name": "lineinfile"}, "msg": ""}
+2016-07-01 16:51:34,796 p=5622 u=root |  TASK [geerlingguy.jenkins : Immediately restart Jenkins on init config changes.] ***
+2016-07-01 16:51:34,796 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/settings.yml:11
+2016-07-01 16:51:34,867 p=5622 u=root |  skipping: [rhel-01] => {"changed": false, "skip_reason": "Conditional check failed", "skipped": true}
+2016-07-01 16:51:34,871 p=5622 u=root |  TASK [geerlingguy.jenkins : Set HTTP port in Jenkins config.] ******************
+2016-07-01 16:51:34,871 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/settings.yml:15
+2016-07-01 16:51:39,141 p=5622 u=root |  ok: [rhel-01] => {"backup": "", "changed": false, "diff": [{"after": "", "after_header": "/etc/sysconfig/jenkins (content)", "before": "", "before_header": "/etc/sysconfig/jenkins (content)"}, {"after_header": "/etc/sysconfig/jenkins (file attributes)", "before_header": "/etc/sysconfig/jenkins (file attributes)"}], "invocation": {"module_args": {"backrefs": true, "backup": false, "content": null, "create": false, "delimiter": null, "dest": "/etc/sysconfig/jenkins", "directory_mode": null, "follow": false, "force": null, "group": null, "insertafter": null, "insertbefore": null, "line": "JENKINS_PORT=8080", "mode": null, "owner": null, "regexp": "^JENKINS_PORT=", "remote_src": null, "selevel": null, "serole": null, "setype": null, "seuser": null, "src": null, "state": "present", "validate": null}, "module_name": "lineinfile"}, "msg": ""}
+2016-07-01 16:51:39,143 p=5622 u=root |  TASK [geerlingguy.jenkins : Immediately restart Jenkins on http config changes.] ***
+2016-07-01 16:51:39,144 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/settings.yml:23
+2016-07-01 16:51:39,215 p=5622 u=root |  skipping: [rhel-01] => {"changed": false, "skip_reason": "Conditional check failed", "skipped": true}
+2016-07-01 16:51:39,217 p=5622 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins is started and runs on startup.] ****
+2016-07-01 16:51:39,218 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/main.yml:27
+2016-07-01 16:51:43,438 p=5622 u=root |  ok: [rhel-01] => {"changed": false, "enabled": true, "invocation": {"module_args": {"arguments": "", "enabled": true, "name": "jenkins", "pattern": null, "runlevel": "default", "sleep": null, "state": "started"}, "module_name": "service"}, "name": "jenkins", "state": "started"}
+2016-07-01 16:51:43,449 p=5622 u=root |  TASK [geerlingguy.jenkins : Wait for Jenkins to start up before proceeding.] ***
+2016-07-01 16:51:43,449 p=5622 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/main.yml:30
+2016-07-01 16:51:48,029 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (59 retries left).Result was: {"attempts": 1, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.130570", "end": "2016-07-01 07:21:39.687477", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:21:39.556907", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:51:57,604 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (58 retries left).Result was: {"attempts": 2, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009686", "end": "2016-07-01 07:21:49.272181", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:21:49.262495", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:52:07,025 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (57 retries left).Result was: {"attempts": 3, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009612", "end": "2016-07-01 07:21:58.694368", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:21:58.684756", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:52:16,346 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (56 retries left).Result was: {"attempts": 4, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009873", "end": "2016-07-01 07:22:08.011604", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:22:08.001731", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:52:25,867 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (55 retries left).Result was: {"attempts": 5, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009649", "end": "2016-07-01 07:22:17.535252", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:22:17.525603", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:52:35,241 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (54 retries left).Result was: {"attempts": 6, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009710", "end": "2016-07-01 07:22:26.909659", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:22:26.899949", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:52:44,713 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (53 retries left).Result was: {"attempts": 7, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.012430", "end": "2016-07-01 07:22:36.381394", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:22:36.368964", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:52:54,270 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (52 retries left).Result was: {"attempts": 8, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.066291", "end": "2016-07-01 07:22:45.938223", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:22:45.871932", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:53:03,507 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (51 retries left).Result was: {"attempts": 9, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009730", "end": "2016-07-01 07:22:55.175532", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:22:55.165802", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:53:12,980 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (50 retries left).Result was: {"attempts": 10, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.017912", "end": "2016-07-01 07:23:04.646827", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:23:04.628915", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:53:22,290 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (49 retries left).Result was: {"attempts": 11, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009584", "end": "2016-07-01 07:23:13.957431", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:23:13.947847", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:53:31,711 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (48 retries left).Result was: {"attempts": 12, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009640", "end": "2016-07-01 07:23:23.378778", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:23:23.369138", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:53:41,083 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (47 retries left).Result was: {"attempts": 13, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009703", "end": "2016-07-01 07:23:32.749109", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:23:32.739406", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:53:50,448 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (46 retries left).Result was: {"attempts": 14, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009526", "end": "2016-07-01 07:23:42.116121", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:23:42.106595", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:53:59,901 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (45 retries left).Result was: {"attempts": 15, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.034112", "end": "2016-07-01 07:23:51.567515", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:23:51.533403", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:54:09,194 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (44 retries left).Result was: {"attempts": 16, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009578", "end": "2016-07-01 07:24:00.860562", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:24:00.850984", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:54:18,610 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (43 retries left).Result was: {"attempts": 17, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009629", "end": "2016-07-01 07:24:10.277596", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:24:10.267967", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:54:28,031 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (42 retries left).Result was: {"attempts": 18, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009949", "end": "2016-07-01 07:24:19.697455", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:24:19.687506", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:54:37,235 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (41 retries left).Result was: {"attempts": 19, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009777", "end": "2016-07-01 07:24:28.897272", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:24:28.887495", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:54:46,668 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (40 retries left).Result was: {"attempts": 20, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009584", "end": "2016-07-01 07:24:38.335042", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:24:38.325458", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:54:56,098 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (39 retries left).Result was: {"attempts": 21, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.017778", "end": "2016-07-01 07:24:47.763755", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:24:47.745977", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:55:05,435 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (38 retries left).Result was: {"attempts": 22, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.034116", "end": "2016-07-01 07:24:57.096035", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:24:57.061919", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:55:14,786 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (37 retries left).Result was: {"attempts": 23, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009840", "end": "2016-07-01 07:25:06.452429", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:25:06.442589", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:55:24,044 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (36 retries left).Result was: {"attempts": 24, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009700", "end": "2016-07-01 07:25:15.709942", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:25:15.700242", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:55:33,474 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (35 retries left).Result was: {"attempts": 25, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009644", "end": "2016-07-01 07:25:25.115416", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:25:25.105772", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:55:42,887 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (34 retries left).Result was: {"attempts": 26, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009682", "end": "2016-07-01 07:25:34.552727", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:25:34.543045", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:55:52,255 p=5622 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (33 retries left).Result was: {"attempts": 27, "changed": false, "cmd": "curl -D - --silent http://jenkins.example.com:8080/cli/", "delta": "0:00:00.009601", "end": "2016-07-01 07:25:43.921667", "failed": true, "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://jenkins.example.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 6, "retries": 60, "start": "2016-07-01 07:25:43.912066", "stderr": "", "stdout": "", "stdout_lines": [], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 16:55:54,929 p=5622 u=root |   [ERROR]: User interrupted execution
+
+2016-07-01 16:58:33,380 p=5827 u=root |  PLAY [rhel-01] *****************************************************************
+2016-07-01 16:58:33,422 p=5827 u=root |  TASK [setup] *******************************************************************
+2016-07-01 16:58:41,657 p=5827 u=root |  ok: [rhel-01]
+2016-07-01 16:58:41,660 p=5827 u=root |  TASK [geerlingguy.java : Include OS-specific variables.] ***********************
+2016-07-01 16:58:41,734 p=5827 u=root |  ok: [rhel-01]
+2016-07-01 16:58:41,736 p=5827 u=root |  TASK [geerlingguy.java : Include version-specific variables for Ubuntu.] *******
+2016-07-01 16:58:41,792 p=5827 u=root |  skipping: [rhel-01]
+2016-07-01 16:58:41,795 p=5827 u=root |  TASK [geerlingguy.java : Define java_packages.] ********************************
+2016-07-01 16:58:41,862 p=5827 u=root |  ok: [rhel-01]
+2016-07-01 16:58:41,864 p=5827 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-01 16:58:41,919 p=5827 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/setup-RedHat.yml for rhel-01
+2016-07-01 16:58:41,928 p=5827 u=root |  TASK [geerlingguy.java : Ensure Java is installed.] ****************************
+2016-07-01 16:58:46,831 p=5827 u=root |  ok: [rhel-01] => (item=[u'java-1.7.0-openjdk'])
+2016-07-01 16:58:46,840 p=5827 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-01 16:58:46,890 p=5827 u=root |  skipping: [rhel-01]
+2016-07-01 16:58:46,892 p=5827 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-01 16:58:46,930 p=5827 u=root |  skipping: [rhel-01]
+2016-07-01 16:58:46,932 p=5827 u=root |  TASK [geerlingguy.jenkins : Include OS-Specific variables] *********************
+2016-07-01 16:58:47,005 p=5827 u=root |  ok: [rhel-01]
+2016-07-01 16:58:47,008 p=5827 u=root |  TASK [geerlingguy.jenkins : Define jenkins_repo_url] ***************************
+2016-07-01 16:58:47,077 p=5827 u=root |  ok: [rhel-01]
+2016-07-01 16:58:47,080 p=5827 u=root |  TASK [geerlingguy.jenkins : Define jenkins_repo_key_url] ***********************
+2016-07-01 16:58:47,149 p=5827 u=root |  ok: [rhel-01]
+2016-07-01 16:58:47,151 p=5827 u=root |  TASK [geerlingguy.jenkins : Install curl] **************************************
+2016-07-01 16:58:51,737 p=5827 u=root |  ok: [rhel-01]
+2016-07-01 16:58:51,739 p=5827 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 16:58:51,818 p=5827 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/setup-RedHat.yml for rhel-01
+2016-07-01 16:58:51,829 p=5827 u=root |  TASK [geerlingguy.jenkins : Ensure dependencies are installed.] ****************
+2016-07-01 16:58:56,456 p=5827 u=root |  ok: [rhel-01]
+2016-07-01 16:58:56,459 p=5827 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins repo is installed.] *****************
+2016-07-01 16:59:00,975 p=5827 u=root |  ok: [rhel-01]
+2016-07-01 16:59:00,977 p=5827 u=root |  TASK [geerlingguy.jenkins : Add Jenkins repo GPG key.] *************************
+2016-07-01 16:59:06,078 p=5827 u=root |  ok: [rhel-01]
+2016-07-01 16:59:06,081 p=5827 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins is installed.] **********************
+2016-07-01 16:59:10,756 p=5827 u=root |  ok: [rhel-01]
+2016-07-01 16:59:10,759 p=5827 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 16:59:10,798 p=5827 u=root |  skipping: [rhel-01]
+2016-07-01 16:59:10,802 p=5827 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 16:59:10,884 p=5827 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/settings.yml for rhel-01
+2016-07-01 16:59:10,912 p=5827 u=root |  TASK [geerlingguy.jenkins : Ensure URL prefix is present in Jenkins config.] ***
+2016-07-01 16:59:15,469 p=5827 u=root |  ok: [rhel-01]
+2016-07-01 16:59:15,472 p=5827 u=root |  TASK [geerlingguy.jenkins : Immediately restart Jenkins on init config changes.] ***
+2016-07-01 16:59:15,528 p=5827 u=root |  skipping: [rhel-01]
+2016-07-01 16:59:15,531 p=5827 u=root |  TASK [geerlingguy.jenkins : Set HTTP port in Jenkins config.] ******************
+2016-07-01 16:59:19,810 p=5827 u=root |  ok: [rhel-01]
+2016-07-01 16:59:19,812 p=5827 u=root |  TASK [geerlingguy.jenkins : Immediately restart Jenkins on http config changes.] ***
+2016-07-01 16:59:19,870 p=5827 u=root |  skipping: [rhel-01]
+2016-07-01 16:59:19,874 p=5827 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins is started and runs on startup.] ****
+2016-07-01 16:59:24,488 p=5827 u=root |  ok: [rhel-01]
+2016-07-01 16:59:24,490 p=5827 u=root |  TASK [geerlingguy.jenkins : Wait for Jenkins to start up before proceeding.] ***
+2016-07-01 16:59:29,010 p=5827 u=root |  FAILED - RETRYING: TASK: geerlingguy.jenkins : Wait for Jenkins to start up before proceeding. (59 retries left).
+2016-07-01 16:59:32,572 p=5827 u=root |   [ERROR]: User interrupted execution
+
+2016-07-01 17:03:34,091 p=5942 u=root |  PLAY [rhel-01] *****************************************************************
+2016-07-01 17:03:34,134 p=5942 u=root |  TASK [setup] *******************************************************************
+2016-07-01 17:03:42,737 p=5942 u=root |  ok: [rhel-01]
+2016-07-01 17:03:42,748 p=5942 u=root |  TASK [geerlingguy.java : Include OS-specific variables.] ***********************
+2016-07-01 17:03:42,826 p=5942 u=root |  ok: [rhel-01]
+2016-07-01 17:03:42,828 p=5942 u=root |  TASK [geerlingguy.java : Include version-specific variables for Ubuntu.] *******
+2016-07-01 17:03:42,884 p=5942 u=root |  skipping: [rhel-01]
+2016-07-01 17:03:42,889 p=5942 u=root |  TASK [geerlingguy.java : Define java_packages.] ********************************
+2016-07-01 17:03:42,969 p=5942 u=root |  ok: [rhel-01]
+2016-07-01 17:03:42,971 p=5942 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-01 17:03:43,038 p=5942 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/setup-RedHat.yml for rhel-01
+2016-07-01 17:03:43,048 p=5942 u=root |  TASK [geerlingguy.java : Ensure Java is installed.] ****************************
+2016-07-01 17:03:47,995 p=5942 u=root |  ok: [rhel-01] => (item=[u'java-1.7.0-openjdk'])
+2016-07-01 17:03:48,003 p=5942 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-01 17:03:48,044 p=5942 u=root |  skipping: [rhel-01]
+2016-07-01 17:03:48,048 p=5942 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-01 17:03:48,093 p=5942 u=root |  skipping: [rhel-01]
+2016-07-01 17:03:48,096 p=5942 u=root |  TASK [geerlingguy.jenkins : Include OS-Specific variables] *********************
+2016-07-01 17:03:48,186 p=5942 u=root |  ok: [rhel-01]
+2016-07-01 17:03:48,188 p=5942 u=root |  TASK [geerlingguy.jenkins : Define jenkins_repo_url] ***************************
+2016-07-01 17:03:48,256 p=5942 u=root |  ok: [rhel-01]
+2016-07-01 17:03:48,258 p=5942 u=root |  TASK [geerlingguy.jenkins : Define jenkins_repo_key_url] ***********************
+2016-07-01 17:03:48,329 p=5942 u=root |  ok: [rhel-01]
+2016-07-01 17:03:48,331 p=5942 u=root |  TASK [geerlingguy.jenkins : Install curl] **************************************
+2016-07-01 17:03:53,083 p=5942 u=root |  ok: [rhel-01]
+2016-07-01 17:03:53,085 p=5942 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 17:03:53,159 p=5942 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/setup-RedHat.yml for rhel-01
+2016-07-01 17:03:53,172 p=5942 u=root |  TASK [geerlingguy.jenkins : Ensure dependencies are installed.] ****************
+2016-07-01 17:03:58,030 p=5942 u=root |  ok: [rhel-01]
+2016-07-01 17:03:58,033 p=5942 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins repo is installed.] *****************
+2016-07-01 17:04:02,647 p=5942 u=root |  ok: [rhel-01]
+2016-07-01 17:04:02,649 p=5942 u=root |  TASK [geerlingguy.jenkins : Add Jenkins repo GPG key.] *************************
+2016-07-01 17:04:07,858 p=5942 u=root |  ok: [rhel-01]
+2016-07-01 17:04:07,860 p=5942 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins is installed.] **********************
+2016-07-01 17:04:12,569 p=5942 u=root |  ok: [rhel-01]
+2016-07-01 17:04:12,571 p=5942 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 17:04:12,612 p=5942 u=root |  skipping: [rhel-01]
+2016-07-01 17:04:12,615 p=5942 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 17:04:12,686 p=5942 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/settings.yml for rhel-01
+2016-07-01 17:04:12,720 p=5942 u=root |  TASK [geerlingguy.jenkins : Ensure URL prefix is present in Jenkins config.] ***
+2016-07-01 17:04:17,238 p=5942 u=root |  ok: [rhel-01]
+2016-07-01 17:04:17,240 p=5942 u=root |  TASK [geerlingguy.jenkins : Immediately restart Jenkins on init config changes.] ***
+2016-07-01 17:04:17,293 p=5942 u=root |  skipping: [rhel-01]
+2016-07-01 17:04:17,295 p=5942 u=root |  TASK [geerlingguy.jenkins : Set HTTP port in Jenkins config.] ******************
+2016-07-01 17:04:21,760 p=5942 u=root |  ok: [rhel-01]
+2016-07-01 17:04:21,762 p=5942 u=root |  TASK [geerlingguy.jenkins : Immediately restart Jenkins on http config changes.] ***
+2016-07-01 17:04:21,816 p=5942 u=root |  skipping: [rhel-01]
+2016-07-01 17:04:21,822 p=5942 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins is started and runs on startup.] ****
+2016-07-01 17:04:26,581 p=5942 u=root |  ok: [rhel-01]
+2016-07-01 17:04:26,583 p=5942 u=root |  TASK [geerlingguy.jenkins : Wait for Jenkins to start up before proceeding.] ***
+2016-07-01 17:04:32,032 p=5942 u=root |  ok: [rhel-01]
+2016-07-01 17:04:32,033 p=5942 u=root |   [WARNING]: Consider using get_url or uri module rather than running curl
+
+2016-07-01 17:04:32,035 p=5942 u=root |  TASK [geerlingguy.jenkins : Get the jenkins-cli jarfile from the Jenkins server.] ***
+2016-07-01 17:04:36,585 p=5942 u=root |  changed: [rhel-01]
+2016-07-01 17:04:36,587 p=5942 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 17:04:36,667 p=5942 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/plugins.yml for rhel-01
+2016-07-01 17:04:36,700 p=5942 u=root |  TASK [geerlingguy.jenkins : Create Jenkins updates folder.] ********************
+2016-07-01 17:04:41,314 p=5942 u=root |  ok: [rhel-01]
+2016-07-01 17:04:41,316 p=5942 u=root |  TASK [geerlingguy.jenkins : Update Jenkins plugin data.] ***********************
+2016-07-01 17:04:45,715 p=5942 u=root |  ok: [rhel-01]
+2016-07-01 17:04:45,717 p=5942 u=root |  TASK [geerlingguy.jenkins : Permissions for default.json updates info.] ********
+2016-07-01 17:04:50,020 p=5942 u=root |  changed: [rhel-01]
+2016-07-01 17:04:50,022 p=5942 u=root |  TASK [geerlingguy.jenkins : Install Jenkins plugins.] **************************
+2016-07-01 17:04:50,078 p=5942 u=root |  PLAY RECAP *********************************************************************
+2016-07-01 17:04:50,078 p=5942 u=root |  rhel-01                    : ok=24   changed=2    unreachable=0    failed=0   
+2016-07-01 22:31:08,661 p=6104 u=root |  Using /Users/rgodishela/ansible/day01/ansible.cfg as config file
+2016-07-01 22:31:08,804 p=6104 u=root |  Loaded callback default of type stdout, v2.0
+2016-07-01 22:31:08,835 p=6104 u=root |  PLAYBOOK: TestRole.yml *********************************************************
+2016-07-01 22:31:08,835 p=6104 u=root |  1 plays in TestRole.yml
+2016-07-01 22:31:08,847 p=6104 u=root |  PLAY [rhel-01] *****************************************************************
+2016-07-01 22:31:08,902 p=6104 u=root |  TASK [setup] *******************************************************************
+2016-07-01 22:31:16,886 p=6104 u=root |  ok: [rhel-01]
+2016-07-01 22:31:16,890 p=6104 u=root |  TASK [geerlingguy.java : Include OS-specific variables.] ***********************
+2016-07-01 22:31:16,891 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/main.yml:2
+2016-07-01 22:31:16,971 p=6104 u=root |  ok: [rhel-01] => {"ansible_facts": {"__java_packages": ["java-1.7.0-openjdk"]}, "changed": false, "invocation": {"module_args": {"_raw_params": "RedHat.yml"}, "module_name": "include_vars"}}
+2016-07-01 22:31:16,973 p=6104 u=root |  TASK [geerlingguy.java : Include version-specific variables for Ubuntu.] *******
+2016-07-01 22:31:16,973 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/main.yml:6
+2016-07-01 22:31:17,023 p=6104 u=root |  skipping: [rhel-01] => {"changed": false, "skip_reason": "Conditional check failed", "skipped": true}
+2016-07-01 22:31:17,026 p=6104 u=root |  TASK [geerlingguy.java : Define java_packages.] ********************************
+2016-07-01 22:31:17,027 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/main.yml:10
+2016-07-01 22:31:17,107 p=6104 u=root |  ok: [rhel-01] => {"ansible_facts": {"java_packages": ["java-1.7.0-openjdk"]}, "changed": false, "invocation": {"module_args": {"java_packages": ["java-1.7.0-openjdk"]}, "module_name": "set_fact"}}
+2016-07-01 22:31:17,109 p=6104 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-01 22:31:17,110 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/main.yml:16
+2016-07-01 22:31:17,171 p=6104 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/setup-RedHat.yml for rhel-01
+2016-07-01 22:31:17,180 p=6104 u=root |  TASK [geerlingguy.java : Ensure Java is installed.] ****************************
+2016-07-01 22:31:17,180 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/setup-RedHat.yml:2
+2016-07-01 22:31:21,992 p=6104 u=root |  ok: [rhel-01] => (item=[u'java-1.7.0-openjdk']) => {"changed": false, "invocation": {"module_args": {"conf_file": null, "disable_gpg_check": false, "disablerepo": null, "enablerepo": null, "exclude": null, "install_repoquery": true, "list": null, "name": ["java-1.7.0-openjdk"], "state": "installed", "update_cache": false, "validate_certs": true}, "module_name": "yum"}, "item": ["java-1.7.0-openjdk"], "msg": "", "rc": 0, "results": ["java-1.7.0-openjdk-1:1.7.0.101-2.6.6.1.el7_2.x86_64 providing java-1.7.0-openjdk is already installed"]}
+2016-07-01 22:31:21,997 p=6104 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-01 22:31:21,998 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/main.yml:19
+2016-07-01 22:31:22,037 p=6104 u=root |  skipping: [rhel-01] => {"changed": false, "skip_reason": "Conditional check failed", "skipped": true}
+2016-07-01 22:31:22,039 p=6104 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-01 22:31:22,040 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/main.yml:22
+2016-07-01 22:31:22,081 p=6104 u=root |  skipping: [rhel-01] => {"changed": false, "skip_reason": "Conditional check failed", "skipped": true}
+2016-07-01 22:31:22,084 p=6104 u=root |  TASK [geerlingguy.jenkins : Include OS-Specific variables] *********************
+2016-07-01 22:31:22,084 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/main.yml:3
+2016-07-01 22:31:22,174 p=6104 u=root |  ok: [rhel-01] => {"ansible_facts": {"__jenkins_repo_key_url": "http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key", "__jenkins_repo_url": "http://pkg.jenkins-ci.org/redhat/jenkins.repo", "jenkins_http_port_param": "JENKINS_PORT", "jenkins_init_file": "/etc/sysconfig/jenkins"}, "changed": false, "invocation": {"module_args": {"_raw_params": "RedHat.yml"}, "module_name": "include_vars"}}
+2016-07-01 22:31:22,176 p=6104 u=root |  TASK [geerlingguy.jenkins : Define jenkins_repo_url] ***************************
+2016-07-01 22:31:22,176 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/main.yml:6
+2016-07-01 22:31:22,242 p=6104 u=root |  ok: [rhel-01] => {"ansible_facts": {"jenkins_repo_url": "http://pkg.jenkins-ci.org/redhat/jenkins.repo"}, "changed": false, "invocation": {"module_args": {"jenkins_repo_url": "http://pkg.jenkins-ci.org/redhat/jenkins.repo"}, "module_name": "set_fact"}}
+2016-07-01 22:31:22,244 p=6104 u=root |  TASK [geerlingguy.jenkins : Define jenkins_repo_key_url] ***********************
+2016-07-01 22:31:22,245 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/main.yml:11
+2016-07-01 22:31:22,306 p=6104 u=root |  ok: [rhel-01] => {"ansible_facts": {"jenkins_repo_key_url": "http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key"}, "changed": false, "invocation": {"module_args": {"jenkins_repo_key_url": "http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key"}, "module_name": "set_fact"}}
+2016-07-01 22:31:22,308 p=6104 u=root |  TASK [geerlingguy.jenkins : Install curl] **************************************
+2016-07-01 22:31:22,309 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/main.yml:17
+2016-07-01 22:31:26,896 p=6104 u=root |  ok: [rhel-01] => {"changed": false, "invocation": {"module_args": {"conf_file": null, "disable_gpg_check": false, "disablerepo": null, "enablerepo": null, "exclude": null, "install_repoquery": true, "list": null, "name": ["curl"], "state": "present", "update_cache": false, "validate_certs": true}, "module_name": "yum"}, "msg": "", "rc": 0, "results": ["curl-7.29.0-25.el7.x86_64 providing curl is already installed"]}
+2016-07-01 22:31:26,898 p=6104 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 22:31:26,899 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/main.yml:21
+2016-07-01 22:31:26,968 p=6104 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/setup-RedHat.yml for rhel-01
+2016-07-01 22:31:26,982 p=6104 u=root |  TASK [geerlingguy.jenkins : Ensure dependencies are installed.] ****************
+2016-07-01 22:31:26,982 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/setup-RedHat.yml:2
+2016-07-01 22:31:31,598 p=6104 u=root |  ok: [rhel-01] => {"changed": false, "invocation": {"module_args": {"conf_file": null, "disable_gpg_check": false, "disablerepo": null, "enablerepo": null, "exclude": null, "install_repoquery": true, "list": null, "name": ["curl"], "pkg": "curl", "state": "installed", "update_cache": false, "validate_certs": true}, "module_name": "yum"}, "msg": "", "rc": 0, "results": ["curl-7.29.0-25.el7.x86_64 providing curl is already installed"]}
+2016-07-01 22:31:31,601 p=6104 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins repo is installed.] *****************
+2016-07-01 22:31:31,601 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/setup-RedHat.yml:5
+2016-07-01 22:31:36,135 p=6104 u=root |  ok: [rhel-01] => {"changed": false, "dest": "/etc/yum.repos.d/jenkins.repo", "gid": 0, "group": "root", "invocation": {"module_args": {"backup": false, "checksum": "", "content": null, "delimiter": null, "dest": "/etc/yum.repos.d/jenkins.repo", "directory_mode": null, "follow": false, "force": false, "force_basic_auth": false, "group": null, "headers": null, "http_agent": "ansible-httpget", "mode": null, "owner": null, "path": "/etc/yum.repos.d/jenkins.repo", "regexp": null, "remote_src": null, "selevel": null, "serole": null, "setype": null, "seuser": null, "sha256sum": "", "src": null, "timeout": 10, "tmp_dest": "", "url": "http://pkg.jenkins-ci.org/redhat/jenkins.repo", "url_password": null, "url_username": null, "use_proxy": true, "validate_certs": true}, "module_name": "get_url"}, "mode": "0644", "msg": "file already exists", "owner": "root", "secontext": "unconfined_u:object_r:system_conf_t:s0", "size": 71, "state": "file", "uid": 0, "url": "http://pkg.jenkins-ci.org/redhat/jenkins.repo"}
+2016-07-01 22:31:36,138 p=6104 u=root |  TASK [geerlingguy.jenkins : Add Jenkins repo GPG key.] *************************
+2016-07-01 22:31:36,138 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/setup-RedHat.yml:10
+2016-07-01 22:31:41,241 p=6104 u=root |  ok: [rhel-01] => {"changed": false, "invocation": {"module_args": {"key": "http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key", "state": "present", "validate_certs": true}, "module_name": "rpm_key"}}
+2016-07-01 22:31:41,244 p=6104 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins is installed.] **********************
+2016-07-01 22:31:41,244 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/setup-RedHat.yml:15
+2016-07-01 22:31:45,871 p=6104 u=root |  ok: [rhel-01] => {"changed": false, "invocation": {"module_args": {"conf_file": null, "disable_gpg_check": false, "disablerepo": null, "enablerepo": null, "exclude": null, "install_repoquery": true, "list": null, "name": ["jenkins"], "state": "installed", "update_cache": false, "validate_certs": true}, "module_name": "yum"}, "msg": "", "rc": 0, "results": ["jenkins-2.11-1.1.noarch providing jenkins is already installed"]}
+2016-07-01 22:31:45,873 p=6104 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 22:31:45,873 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/main.yml:24
+2016-07-01 22:31:45,911 p=6104 u=root |  skipping: [rhel-01] => {"changed": false, "skip_reason": "Conditional check failed", "skipped": true}
+2016-07-01 22:31:45,915 p=6104 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 22:31:45,915 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/main.yml:28
+2016-07-01 22:31:45,991 p=6104 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/settings.yml for rhel-01
+2016-07-01 22:31:46,019 p=6104 u=root |  TASK [geerlingguy.jenkins : Ensure URL prefix is present in Jenkins config.] ***
+2016-07-01 22:31:46,019 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/settings.yml:2
+2016-07-01 22:31:50,484 p=6104 u=root |  ok: [rhel-01] => {"backup": "", "changed": false, "diff": [{"after": "", "after_header": "/etc/sysconfig/jenkins (content)", "before": "", "before_header": "/etc/sysconfig/jenkins (content)"}, {"after_header": "/etc/sysconfig/jenkins (file attributes)", "before_header": "/etc/sysconfig/jenkins (file attributes)"}], "invocation": {"module_args": {"backrefs": false, "backup": false, "content": null, "create": false, "delimiter": null, "dest": "/etc/sysconfig/jenkins", "directory_mode": null, "follow": false, "force": null, "group": null, "insertafter": "^JENKINS_ARGS=", "insertbefore": null, "line": "JENKINS_ARGS+=\" --prefix=\"", "mode": null, "owner": null, "regexp": "^JENKINS_ARGS\\+=\" --prefix=", "remote_src": null, "selevel": null, "serole": null, "setype": null, "seuser": null, "src": null, "state": "present", "validate": null}, "module_name": "lineinfile"}, "msg": ""}
+2016-07-01 22:31:50,487 p=6104 u=root |  TASK [geerlingguy.jenkins : Immediately restart Jenkins on init config changes.] ***
+2016-07-01 22:31:50,488 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/settings.yml:11
+2016-07-01 22:31:50,544 p=6104 u=root |  skipping: [rhel-01] => {"changed": false, "skip_reason": "Conditional check failed", "skipped": true}
+2016-07-01 22:31:50,547 p=6104 u=root |  TASK [geerlingguy.jenkins : Set HTTP port in Jenkins config.] ******************
+2016-07-01 22:31:50,550 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/settings.yml:15
+2016-07-01 22:31:54,923 p=6104 u=root |  ok: [rhel-01] => {"backup": "", "changed": false, "diff": [{"after": "", "after_header": "/etc/sysconfig/jenkins (content)", "before": "", "before_header": "/etc/sysconfig/jenkins (content)"}, {"after_header": "/etc/sysconfig/jenkins (file attributes)", "before_header": "/etc/sysconfig/jenkins (file attributes)"}], "invocation": {"module_args": {"backrefs": true, "backup": false, "content": null, "create": false, "delimiter": null, "dest": "/etc/sysconfig/jenkins", "directory_mode": null, "follow": false, "force": null, "group": null, "insertafter": null, "insertbefore": null, "line": "JENKINS_PORT=8080", "mode": null, "owner": null, "regexp": "^JENKINS_PORT=", "remote_src": null, "selevel": null, "serole": null, "setype": null, "seuser": null, "src": null, "state": "present", "validate": null}, "module_name": "lineinfile"}, "msg": ""}
+2016-07-01 22:31:54,925 p=6104 u=root |  TASK [geerlingguy.jenkins : Immediately restart Jenkins on http config changes.] ***
+2016-07-01 22:31:54,925 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/settings.yml:23
+2016-07-01 22:31:54,975 p=6104 u=root |  skipping: [rhel-01] => {"changed": false, "skip_reason": "Conditional check failed", "skipped": true}
+2016-07-01 22:31:54,977 p=6104 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins is started and runs on startup.] ****
+2016-07-01 22:31:54,978 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/main.yml:31
+2016-07-01 22:31:59,437 p=6104 u=root |  ok: [rhel-01] => {"changed": false, "enabled": true, "invocation": {"module_args": {"arguments": "", "enabled": true, "name": "jenkins", "pattern": null, "runlevel": "default", "sleep": null, "state": "started"}, "module_name": "service"}, "name": "jenkins", "state": "started"}
+2016-07-01 22:31:59,439 p=6104 u=root |  TASK [geerlingguy.jenkins : Wait for Jenkins to start up before proceeding.] ***
+2016-07-01 22:31:59,439 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/main.yml:34
+2016-07-01 22:32:03,655 p=6104 u=root |  ok: [rhel-01] => {"changed": false, "cmd": "curl -D - --silent http://ec2-54-218-67-171.us-west-2.compute.amazonaws.com:8080/cli/", "delta": "0:00:00.017971", "end": "2016-07-01 13:01:54.042816", "invocation": {"module_args": {"_raw_params": "curl -D - --silent http://ec2-54-218-67-171.us-west-2.compute.amazonaws.com:8080/cli/", "_uses_shell": true, "chdir": null, "creates": null, "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 0, "start": "2016-07-01 13:01:54.024845", "stderr": "", "stdout": "HTTP/1.1 403 Forbidden\r\nDate: Fri, 01 Jul 2016 17:01:54 GMT\r\nX-Content-Type-Options: nosniff\r\nExpires: Thu, 01 Jan 1970 00:00:00 GMT\r\nCache-Control: no-cache,no-store,must-revalidate\r\nX-Hudson-Theme: default\r\nContent-Type: text/html;charset=UTF-8\r\nSet-Cookie: JSESSIONID.fe3a8227=b072ll0ekuv21153l0c1xh04h;Path=/;HttpOnly\r\nX-Hudson: 1.395\r\nX-Jenkins: 2.11\r\nX-Jenkins-Session: c10685d1\r\nX-Frame-Options: sameorigin\r\nX-Instance-Identity: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhU68lxBsYfeyWySzOQlcXX8qBTAIA99cghTrjhPHmR91/+C5YU42UMdIyzZmV6i+AC3+adgBku6kFA3KgrGPkg9jYafrBJmaj2F7qLbvDWUfoaqhrzihz85PP4BtTRl+2la0iQFYWwUbWtNBBmPZiuOZvfb46GBTYUTGIiqVK4Hup1ZWPp0oTazTLPQU0t64d9K1H5ptfi9hikbFisA3HphCf1OrHicQ9fgvsdS/VUPgQPMSqnEouJgTSrflMUJv6UQwdLfse3hu+BMy1TecIlx2jXQM8nkUQR6FjBXuFaVOi7pPqMKS+2DYziXC9YldCxUJJBbxF0MmlY49E++2pQIDAQAB\r\nX-SSH-Endpoint: ec2-54-218-67-171.us-west-2.compute.amazonaws.com:49453\r\nX-You-Are-Authenticated-As: anonymous\r\nX-You-Are-In-Group: \r\nX-Required-Permission: hudson.model.Hudson.Read\r\nX-Permission-Implied-By: hudson.security.Permission.GenericRead\r\nX-Permission-Implied-By: hudson.model.Hudson.Administer\r\nContent-Length: 829\r\nServer: Jetty(9.2.z-SNAPSHOT)\r\n\r\n\n\n\n\n  \n  <!DOCTYPE html><html><head><meta http-equiv='refresh' content='1;url=/login?from=%2Fcli%2F'/><script>window.location.replace('/login?from=%2Fcli%2F');</script></head><body style='background-color:white; color:white;'>\n\n\nAuthentication required\n<!--\nYou are authenticated as: anonymous\nGroups that you are in:\n  \nPermission you need to have (but didn't): hudson.model.Hudson.Read\n ... which is implied by: hudson.security.Permission.GenericRead\n ... which is implied by: hudson.model.Hudson.Administer\n-->\n\n</body></html>                                                                                                                                                                                                                                                                                                            ", "stdout_lines": ["HTTP/1.1 403 Forbidden", "Date: Fri, 01 Jul 2016 17:01:54 GMT", "X-Content-Type-Options: nosniff", "Expires: Thu, 01 Jan 1970 00:00:00 GMT", "Cache-Control: no-cache,no-store,must-revalidate", "X-Hudson-Theme: default", "Content-Type: text/html;charset=UTF-8", "Set-Cookie: JSESSIONID.fe3a8227=b072ll0ekuv21153l0c1xh04h;Path=/;HttpOnly", "X-Hudson: 1.395", "X-Jenkins: 2.11", "X-Jenkins-Session: c10685d1", "X-Frame-Options: sameorigin", "X-Instance-Identity: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhU68lxBsYfeyWySzOQlcXX8qBTAIA99cghTrjhPHmR91/+C5YU42UMdIyzZmV6i+AC3+adgBku6kFA3KgrGPkg9jYafrBJmaj2F7qLbvDWUfoaqhrzihz85PP4BtTRl+2la0iQFYWwUbWtNBBmPZiuOZvfb46GBTYUTGIiqVK4Hup1ZWPp0oTazTLPQU0t64d9K1H5ptfi9hikbFisA3HphCf1OrHicQ9fgvsdS/VUPgQPMSqnEouJgTSrflMUJv6UQwdLfse3hu+BMy1TecIlx2jXQM8nkUQR6FjBXuFaVOi7pPqMKS+2DYziXC9YldCxUJJBbxF0MmlY49E++2pQIDAQAB", "X-SSH-Endpoint: ec2-54-218-67-171.us-west-2.compute.amazonaws.com:49453", "X-You-Are-Authenticated-As: anonymous", "X-You-Are-In-Group: ", "X-Required-Permission: hudson.model.Hudson.Read", "X-Permission-Implied-By: hudson.security.Permission.GenericRead", "X-Permission-Implied-By: hudson.model.Hudson.Administer", "Content-Length: 829", "Server: Jetty(9.2.z-SNAPSHOT)", "", "", "", "", "", "  ", "  <!DOCTYPE html><html><head><meta http-equiv='refresh' content='1;url=/login?from=%2Fcli%2F'/><script>window.location.replace('/login?from=%2Fcli%2F');</script></head><body style='background-color:white; color:white;'>", "", "", "Authentication required", "<!--", "You are authenticated as: anonymous", "Groups that you are in:", "  ", "Permission you need to have (but didn't): hudson.model.Hudson.Read", " ... which is implied by: hudson.security.Permission.GenericRead", " ... which is implied by: hudson.model.Hudson.Administer", "-->", "", "</body></html>                                                                                                                                                                                                                                                                                                            "], "warnings": ["Consider using get_url or uri module rather than running curl"]}
+2016-07-01 22:32:03,655 p=6104 u=root |   [WARNING]: Consider using get_url or uri module rather than running curl
+
+2016-07-01 22:32:03,658 p=6104 u=root |  TASK [geerlingguy.jenkins : Get the jenkins-cli jarfile from the Jenkins server.] ***
+2016-07-01 22:32:03,658 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/main.yml:42
+2016-07-01 22:32:07,868 p=6104 u=root |  ok: [rhel-01] => {"changed": false, "dest": "/opt/jenkins-cli.jar", "gid": 0, "group": "root", "invocation": {"module_args": {"backup": false, "checksum": "", "content": null, "delimiter": null, "dest": "/opt/jenkins-cli.jar", "directory_mode": null, "follow": false, "force": false, "force_basic_auth": false, "group": null, "headers": null, "http_agent": "ansible-httpget", "mode": null, "owner": null, "path": "/opt/jenkins-cli.jar", "regexp": null, "remote_src": null, "selevel": null, "serole": null, "setype": null, "seuser": null, "sha256sum": "", "src": null, "timeout": 10, "tmp_dest": "", "url": "http://ec2-54-218-67-171.us-west-2.compute.amazonaws.com:8080/jnlpJars/jenkins-cli.jar", "url_password": null, "url_username": null, "use_proxy": true, "validate_certs": true}, "module_name": "get_url"}, "mode": "0644", "msg": "file already exists", "owner": "root", "secontext": "unconfined_u:object_r:usr_t:s0", "size": 837042, "state": "file", "uid": 0, "url": "http://ec2-54-218-67-171.us-west-2.compute.amazonaws.com:8080/jnlpJars/jenkins-cli.jar"}
+2016-07-01 22:32:07,870 p=6104 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 22:32:07,870 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/main.yml:52
+2016-07-01 22:32:07,946 p=6104 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/plugins.yml for rhel-01
+2016-07-01 22:32:07,988 p=6104 u=root |  TASK [geerlingguy.jenkins : Create Jenkins updates folder.] ********************
+2016-07-01 22:32:07,989 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/plugins.yml:4
+2016-07-01 22:32:12,424 p=6104 u=root |  ok: [rhel-01] => {"changed": false, "diff": {"after": {"path": "/var/lib/jenkins/updates"}, "before": {"path": "/var/lib/jenkins/updates"}}, "gid": 992, "group": "jenkins", "invocation": {"module_args": {"backup": null, "content": null, "delimiter": null, "diff_peek": null, "directory_mode": null, "follow": false, "force": false, "group": "jenkins", "mode": 493, "original_basename": null, "owner": "jenkins", "path": "/var/lib/jenkins/updates", "recurse": false, "regexp": null, "remote_src": null, "selevel": null, "serole": null, "setype": null, "seuser": null, "src": null, "state": "directory", "validate": null}, "module_name": "file"}, "mode": "0755", "owner": "jenkins", "path": "/var/lib/jenkins/updates", "secontext": "system_u:object_r:var_lib_t:s0", "size": 97, "state": "directory", "uid": 995}
+2016-07-01 22:32:12,426 p=6104 u=root |  TASK [geerlingguy.jenkins : Update Jenkins plugin data.] ***********************
+2016-07-01 22:32:12,426 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/plugins.yml:12
+2016-07-01 22:32:16,519 p=6104 u=root |  ok: [rhel-01] => {"changed": false, "cmd": "curl -L https://updates.jenkins-ci.org/update-center.json | sed '1d;$d' > /var/lib/jenkins/updates/default.json", "invocation": {"module_args": {"_raw_params": "curl -L https://updates.jenkins-ci.org/update-center.json | sed '1d;$d' > /var/lib/jenkins/updates/default.json", "_uses_shell": true, "chdir": null, "creates": "/var/lib/jenkins/updates/default.json", "executable": null, "removes": null, "warn": true}, "module_name": "command"}, "rc": 0, "stderr": false, "stdout": "skipped, since /var/lib/jenkins/updates/default.json exists", "stdout_lines": ["skipped, since /var/lib/jenkins/updates/default.json exists"]}
+2016-07-01 22:32:16,521 p=6104 u=root |  TASK [geerlingguy.jenkins : Permissions for default.json updates info.] ********
+2016-07-01 22:32:16,521 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/plugins.yml:17
+2016-07-01 22:32:21,038 p=6104 u=root |  ok: [rhel-01] => {"changed": false, "diff": {"after": {"path": "/var/lib/jenkins/updates/default.json"}, "before": {"path": "/var/lib/jenkins/updates/default.json"}}, "gid": 992, "group": "jenkins", "invocation": {"module_args": {"backup": null, "content": null, "delimiter": null, "diff_peek": null, "directory_mode": null, "follow": false, "force": false, "group": "jenkins", "mode": 493, "original_basename": null, "owner": "jenkins", "path": "/var/lib/jenkins/updates/default.json", "recurse": false, "regexp": null, "remote_src": null, "selevel": null, "serole": null, "setype": null, "seuser": null, "src": null, "state": null, "validate": null}, "module_name": "file"}, "mode": "0755", "owner": "jenkins", "path": "/var/lib/jenkins/updates/default.json", "secontext": "system_u:object_r:var_lib_t:s0", "size": 1039594, "state": "file", "uid": 995}
+2016-07-01 22:32:21,040 p=6104 u=root |  TASK [geerlingguy.jenkins : Install Jenkins plugins.] **************************
+2016-07-01 22:32:21,041 p=6104 u=root |  task path: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/plugins.yml:24
+2016-07-01 22:32:21,085 p=6104 u=root |  PLAY RECAP *********************************************************************
+2016-07-01 22:32:21,086 p=6104 u=root |  rhel-01                    : ok=24   changed=0    unreachable=0    failed=0   
+2016-07-01 22:56:32,698 p=6260 u=root |  rhel-01 | FAILED | rc=1 >>
+cat: /home/ec2-user/.jenkins/config.xml: No such file or directory
+
+2016-07-01 22:57:03,984 p=6276 u=root |  rhel-01 | FAILED | rc=1 >>
+cat: /config.xml: No such file or directory
+
+2016-07-01 22:57:45,944 p=6287 u=root |    hosts (1):
+2016-07-01 22:57:45,944 p=6287 u=root |      rhel-01
+2016-07-01 22:59:39,310 p=6291 u=root |  rhel-01 | SUCCESS => {
+    "ansible_facts": {
+        "ansible_all_ipv4_addresses": [
+            "172.31.27.226"
+        ], 
+        "ansible_all_ipv6_addresses": [
+            "fe80::98:5eff:fee5:c1b"
+        ], 
+        "ansible_architecture": "x86_64", 
+        "ansible_bios_date": "05/12/2016", 
+        "ansible_bios_version": "4.2.amazon", 
+        "ansible_cmdline": {
+            "BOOT_IMAGE": "/boot/vmlinuz-3.10.0-327.el7.x86_64", 
+            "LANG": "en_US.UTF-8", 
+            "console": "tty0", 
+            "crashkernel": "auto", 
+            "net.ifnames": "0", 
+            "ro": true, 
+            "root": "UUID=379de64d-ea11-4f5b-ae6a-0aa50ff7b24d"
+        }, 
+        "ansible_date_time": {
+            "date": "2016-07-01", 
+            "day": "01", 
+            "epoch": "1467394169", 
+            "hour": "13", 
+            "iso8601": "2016-07-01T17:29:29Z", 
+            "iso8601_basic": "20160701T132929679297", 
+            "iso8601_basic_short": "20160701T132929", 
+            "iso8601_micro": "2016-07-01T17:29:29.679383Z", 
+            "minute": "29", 
+            "month": "07", 
+            "second": "29", 
+            "time": "13:29:29", 
+            "tz": "EDT", 
+            "tz_offset": "-0400", 
+            "weekday": "Friday", 
+            "weekday_number": "5", 
+            "weeknumber": "26", 
+            "year": "2016"
+        }, 
+        "ansible_default_ipv4": {
+            "address": "172.31.27.226", 
+            "alias": "eth0", 
+            "broadcast": "172.31.31.255", 
+            "gateway": "172.31.16.1", 
+            "interface": "eth0", 
+            "macaddress": "02:98:5e:e5:0c:1b", 
+            "mtu": 9001, 
+            "netmask": "255.255.240.0", 
+            "network": "172.31.16.0", 
+            "type": "ether"
+        }, 
+        "ansible_default_ipv6": {}, 
+        "ansible_devices": {
+            "xvda": {
+                "holders": [], 
+                "host": "", 
+                "model": null, 
+                "partitions": {
+                    "xvda1": {
+                        "sectors": "2048", 
+                        "sectorsize": 512, 
+                        "size": "1.00 MB", 
+                        "start": "2048"
+                    }, 
+                    "xvda2": {
+                        "sectors": "62910431", 
+                        "sectorsize": 512, 
+                        "size": "30.00 GB", 
+                        "start": "4096"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "0", 
+                "sas_address": null, 
+                "sas_device_handle": null, 
+                "scheduler_mode": "deadline", 
+                "sectors": "62914560", 
+                "sectorsize": "512", 
+                "size": "30.00 GB", 
+                "support_discard": "0", 
+                "vendor": null
+            }
+        }, 
+        "ansible_distribution": "RedHat", 
+        "ansible_distribution_major_version": "7", 
+        "ansible_distribution_release": "Maipo", 
+        "ansible_distribution_version": "7.2", 
+        "ansible_dns": {
+            "nameservers": [
+                "172.31.0.2"
+            ], 
+            "search": [
+                "us-west-2.compute.internal"
+            ]
+        }, 
+        "ansible_domain": "us-west-2.compute.internal", 
+        "ansible_env": {
+            "HOME": "/home/ec2-user", 
+            "LANG": "en_US.UTF-8", 
+            "LC_ALL": "en_US.UTF-8", 
+            "LC_CTYPE": "UTF-8", 
+            "LC_MESSAGES": "en_US.UTF-8", 
+            "LESSOPEN": "||/usr/bin/lesspipe.sh %s", 
+            "LOGNAME": "ec2-user", 
+            "MAIL": "/var/mail/ec2-user", 
+            "PATH": "/usr/local/bin:/usr/bin", 
+            "PWD": "/home/ec2-user", 
+            "PYTHONPATH": "", 
+            "SELINUX_LEVEL_REQUESTED": "", 
+            "SELINUX_ROLE_REQUESTED": "", 
+            "SELINUX_USE_CURRENT_RANGE": "", 
+            "SHELL": "/bin/bash", 
+            "SHLVL": "2", 
+            "SSH_CLIENT": "183.82.197.115 4207 22", 
+            "SSH_CONNECTION": "183.82.197.115 4207 172.31.27.226 22", 
+            "SSH_TTY": "/dev/pts/0", 
+            "TERM": "xterm-256color", 
+            "USER": "ec2-user", 
+            "XDG_RUNTIME_DIR": "/run/user/1000", 
+            "XDG_SESSION_ID": "23", 
+            "_": "/usr/bin/python"
+        }, 
+        "ansible_eth0": {
+            "active": true, 
+            "device": "eth0", 
+            "ipv4": {
+                "address": "172.31.27.226", 
+                "broadcast": "172.31.31.255", 
+                "netmask": "255.255.240.0", 
+                "network": "172.31.16.0"
+            }, 
+            "ipv6": [
+                {
+                    "address": "fe80::98:5eff:fee5:c1b", 
+                    "prefix": "64", 
+                    "scope": "link"
+                }
+            ], 
+            "macaddress": "02:98:5e:e5:0c:1b", 
+            "module": "xen_netfront", 
+            "mtu": 9001, 
+            "pciid": "vif-0", 
+            "promisc": false, 
+            "type": "ether"
+        }, 
+        "ansible_fips": false, 
+        "ansible_form_factor": "Other", 
+        "ansible_fqdn": "ip-172-31-27-226.us-west-2.compute.internal", 
+        "ansible_gather_subset": [
+            "hardware", 
+            "network", 
+            "virtual"
+        ], 
+        "ansible_hostname": "ip-172-31-27-226", 
+        "ansible_interfaces": [
+            "lo", 
+            "eth0"
+        ], 
+        "ansible_kernel": "3.10.0-327.el7.x86_64", 
+        "ansible_lo": {
+            "active": true, 
+            "device": "lo", 
+            "ipv4": {
+                "address": "127.0.0.1", 
+                "broadcast": "host", 
+                "netmask": "255.0.0.0", 
+                "network": "127.0.0.0"
+            }, 
+            "ipv6": [
+                {
+                    "address": "::1", 
+                    "prefix": "128", 
+                    "scope": "host"
+                }
+            ], 
+            "mtu": 65536, 
+            "promisc": false, 
+            "type": "loopback"
+        }, 
+        "ansible_machine": "x86_64", 
+        "ansible_machine_id": "e0f6e13b42734eb297b010b84117a03b", 
+        "ansible_memfree_mb": 65, 
+        "ansible_memory_mb": {
+            "nocache": {
+                "free": 648, 
+                "used": 343
+            }, 
+            "real": {
+                "free": 65, 
+                "total": 991, 
+                "used": 926
+            }, 
+            "swap": {
+                "cached": 0, 
+                "free": 0, 
+                "total": 0, 
+                "used": 0
+            }
+        }, 
+        "ansible_memtotal_mb": 991, 
+        "ansible_mounts": [
+            {
+                "device": "/dev/xvda2", 
+                "fstype": "xfs", 
+                "mount": "/", 
+                "options": "rw,seclabel,relatime,attr2,inode64,noquota", 
+                "size_available": 30732439552, 
+                "size_total": 32199651328, 
+                "uuid": "379de64d-ea11-4f5b-ae6a-0aa50ff7b24d"
+            }
+        ], 
+        "ansible_nodename": "ip-172-31-27-226.us-west-2.compute.internal", 
+        "ansible_os_family": "RedHat", 
+        "ansible_pkg_mgr": "yum", 
+        "ansible_processor": [
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz"
+        ], 
+        "ansible_processor_cores": 1, 
+        "ansible_processor_count": 1, 
+        "ansible_processor_threads_per_core": 1, 
+        "ansible_processor_vcpus": 1, 
+        "ansible_product_name": "HVM domU", 
+        "ansible_product_serial": "NA", 
+        "ansible_product_uuid": "NA", 
+        "ansible_product_version": "4.2.amazon", 
+        "ansible_python": {
+            "executable": "/usr/bin/python", 
+            "has_sslcontext": true, 
+            "type": "CPython", 
+            "version": {
+                "major": 2, 
+                "micro": 5, 
+                "minor": 7, 
+                "releaselevel": "final", 
+                "serial": 0
+            }, 
+            "version_info": [
+                2, 
+                7, 
+                5, 
+                "final", 
+                0
+            ]
+        }, 
+        "ansible_python_version": "2.7.5", 
+        "ansible_selinux": {
+            "config_mode": "enforcing", 
+            "mode": "enforcing", 
+            "policyvers": 28, 
+            "status": "enabled", 
+            "type": "targeted"
+        }, 
+        "ansible_service_mgr": "systemd", 
+        "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGU6lV76S2pUqYgIf12BtJLPzQHaCWYzVWO+nnN+7ya7a2a1RhXE8ss/quBJyvRR1UYf3YeGA4F4gMk7jrYhxf8=", 
+        "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIDjFAKdI+EB7TaHbJ2mlWcrBV7AUbttnY+RmHPgC2frb", 
+        "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDRtVctFcQIupAs+5aJukqDNtW02FGLHu/hJDiF/N5zqvrVdRrXcSTkg1LamWzMdtEPhW2ngfY11oRx3JX48rumQraYr12pCnJi+aKXx4xt1+rTASOlVxDt2tnuTIxBqk0MpRYprjzFhfx+d0m/tHfFDJytKq+91hWfo1SuNmIv1G13AEPdc5n0gLZensqtEX7R8DzYUuIUTKd+ZlbiZmu74M9PWW0LR526YIpEA6QZvoVPmfdZloan0EZibhSmekXmKkPWBDZN6LlGXp9ldwT00g2xlLoNm/EWby/jHrGfuGnkMDC/s+9s4hVNnh7Lc56oLP9IvQ8pS+LIjKWqrtZ3", 
+        "ansible_swapfree_mb": 0, 
+        "ansible_swaptotal_mb": 0, 
+        "ansible_system": "Linux", 
+        "ansible_system_capabilities": [
+            ""
+        ], 
+        "ansible_system_capabilities_enforced": "True", 
+        "ansible_system_vendor": "Xen", 
+        "ansible_uptime_seconds": 36753, 
+        "ansible_user_dir": "/home/ec2-user", 
+        "ansible_user_gecos": "Cloud User", 
+        "ansible_user_gid": 1000, 
+        "ansible_user_id": "ec2-user", 
+        "ansible_user_shell": "/bin/bash", 
+        "ansible_user_uid": 1000, 
+        "ansible_userspace_architecture": "x86_64", 
+        "ansible_userspace_bits": "64", 
+        "ansible_virtualization_role": "guest", 
+        "ansible_virtualization_type": "xen", 
+        "module_setup": true
+    }, 
+    "changed": false
+}
+2016-07-01 22:59:59,827 p=6307 u=root |  rhel-01 | SUCCESS => {
+    "ansible_facts": {
+        "ansible_all_ipv4_addresses": [
+            "172.31.27.226"
+        ], 
+        "ansible_all_ipv6_addresses": [
+            "fe80::98:5eff:fee5:c1b"
+        ], 
+        "ansible_architecture": "x86_64", 
+        "ansible_bios_date": "05/12/2016", 
+        "ansible_bios_version": "4.2.amazon", 
+        "ansible_cmdline": {
+            "BOOT_IMAGE": "/boot/vmlinuz-3.10.0-327.el7.x86_64", 
+            "LANG": "en_US.UTF-8", 
+            "console": "tty0", 
+            "crashkernel": "auto", 
+            "net.ifnames": "0", 
+            "ro": true, 
+            "root": "UUID=379de64d-ea11-4f5b-ae6a-0aa50ff7b24d"
+        }, 
+        "ansible_date_time": {
+            "date": "2016-07-01", 
+            "day": "01", 
+            "epoch": "1467394190", 
+            "hour": "13", 
+            "iso8601": "2016-07-01T17:29:50Z", 
+            "iso8601_basic": "20160701T132950198375", 
+            "iso8601_basic_short": "20160701T132950", 
+            "iso8601_micro": "2016-07-01T17:29:50.198441Z", 
+            "minute": "29", 
+            "month": "07", 
+            "second": "50", 
+            "time": "13:29:50", 
+            "tz": "EDT", 
+            "tz_offset": "-0400", 
+            "weekday": "Friday", 
+            "weekday_number": "5", 
+            "weeknumber": "26", 
+            "year": "2016"
+        }, 
+        "ansible_default_ipv4": {
+            "address": "172.31.27.226", 
+            "alias": "eth0", 
+            "broadcast": "172.31.31.255", 
+            "gateway": "172.31.16.1", 
+            "interface": "eth0", 
+            "macaddress": "02:98:5e:e5:0c:1b", 
+            "mtu": 9001, 
+            "netmask": "255.255.240.0", 
+            "network": "172.31.16.0", 
+            "type": "ether"
+        }, 
+        "ansible_default_ipv6": {}, 
+        "ansible_devices": {
+            "xvda": {
+                "holders": [], 
+                "host": "", 
+                "model": null, 
+                "partitions": {
+                    "xvda1": {
+                        "sectors": "2048", 
+                        "sectorsize": 512, 
+                        "size": "1.00 MB", 
+                        "start": "2048"
+                    }, 
+                    "xvda2": {
+                        "sectors": "62910431", 
+                        "sectorsize": 512, 
+                        "size": "30.00 GB", 
+                        "start": "4096"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "0", 
+                "sas_address": null, 
+                "sas_device_handle": null, 
+                "scheduler_mode": "deadline", 
+                "sectors": "62914560", 
+                "sectorsize": "512", 
+                "size": "30.00 GB", 
+                "support_discard": "0", 
+                "vendor": null
+            }
+        }, 
+        "ansible_distribution": "RedHat", 
+        "ansible_distribution_major_version": "7", 
+        "ansible_distribution_release": "Maipo", 
+        "ansible_distribution_version": "7.2", 
+        "ansible_dns": {
+            "nameservers": [
+                "172.31.0.2"
+            ], 
+            "search": [
+                "us-west-2.compute.internal"
+            ]
+        }, 
+        "ansible_domain": "us-west-2.compute.internal", 
+        "ansible_env": {
+            "HOME": "/home/ec2-user", 
+            "LANG": "en_US.UTF-8", 
+            "LC_ALL": "en_US.UTF-8", 
+            "LC_CTYPE": "UTF-8", 
+            "LC_MESSAGES": "en_US.UTF-8", 
+            "LESSOPEN": "||/usr/bin/lesspipe.sh %s", 
+            "LOGNAME": "ec2-user", 
+            "MAIL": "/var/mail/ec2-user", 
+            "PATH": "/usr/local/bin:/usr/bin", 
+            "PWD": "/home/ec2-user", 
+            "PYTHONPATH": "", 
+            "SELINUX_LEVEL_REQUESTED": "", 
+            "SELINUX_ROLE_REQUESTED": "", 
+            "SELINUX_USE_CURRENT_RANGE": "", 
+            "SHELL": "/bin/bash", 
+            "SHLVL": "2", 
+            "SSH_CLIENT": "183.82.197.115 4207 22", 
+            "SSH_CONNECTION": "183.82.197.115 4207 172.31.27.226 22", 
+            "SSH_TTY": "/dev/pts/0", 
+            "TERM": "xterm-256color", 
+            "USER": "ec2-user", 
+            "XDG_RUNTIME_DIR": "/run/user/1000", 
+            "XDG_SESSION_ID": "23", 
+            "_": "/usr/bin/python"
+        }, 
+        "ansible_eth0": {
+            "active": true, 
+            "device": "eth0", 
+            "ipv4": {
+                "address": "172.31.27.226", 
+                "broadcast": "172.31.31.255", 
+                "netmask": "255.255.240.0", 
+                "network": "172.31.16.0"
+            }, 
+            "ipv6": [
+                {
+                    "address": "fe80::98:5eff:fee5:c1b", 
+                    "prefix": "64", 
+                    "scope": "link"
+                }
+            ], 
+            "macaddress": "02:98:5e:e5:0c:1b", 
+            "module": "xen_netfront", 
+            "mtu": 9001, 
+            "pciid": "vif-0", 
+            "promisc": false, 
+            "type": "ether"
+        }, 
+        "ansible_fips": false, 
+        "ansible_form_factor": "Other", 
+        "ansible_fqdn": "ip-172-31-27-226.us-west-2.compute.internal", 
+        "ansible_gather_subset": [
+            "hardware", 
+            "network", 
+            "virtual"
+        ], 
+        "ansible_hostname": "ip-172-31-27-226", 
+        "ansible_interfaces": [
+            "lo", 
+            "eth0"
+        ], 
+        "ansible_kernel": "3.10.0-327.el7.x86_64", 
+        "ansible_lo": {
+            "active": true, 
+            "device": "lo", 
+            "ipv4": {
+                "address": "127.0.0.1", 
+                "broadcast": "host", 
+                "netmask": "255.0.0.0", 
+                "network": "127.0.0.0"
+            }, 
+            "ipv6": [
+                {
+                    "address": "::1", 
+                    "prefix": "128", 
+                    "scope": "host"
+                }
+            ], 
+            "mtu": 65536, 
+            "promisc": false, 
+            "type": "loopback"
+        }, 
+        "ansible_machine": "x86_64", 
+        "ansible_machine_id": "e0f6e13b42734eb297b010b84117a03b", 
+        "ansible_memfree_mb": 66, 
+        "ansible_memory_mb": {
+            "nocache": {
+                "free": 649, 
+                "used": 342
+            }, 
+            "real": {
+                "free": 66, 
+                "total": 991, 
+                "used": 925
+            }, 
+            "swap": {
+                "cached": 0, 
+                "free": 0, 
+                "total": 0, 
+                "used": 0
+            }
+        }, 
+        "ansible_memtotal_mb": 991, 
+        "ansible_mounts": [
+            {
+                "device": "/dev/xvda2", 
+                "fstype": "xfs", 
+                "mount": "/", 
+                "options": "rw,seclabel,relatime,attr2,inode64,noquota", 
+                "size_available": 30732304384, 
+                "size_total": 32199651328, 
+                "uuid": "379de64d-ea11-4f5b-ae6a-0aa50ff7b24d"
+            }
+        ], 
+        "ansible_nodename": "ip-172-31-27-226.us-west-2.compute.internal", 
+        "ansible_os_family": "RedHat", 
+        "ansible_pkg_mgr": "yum", 
+        "ansible_processor": [
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz"
+        ], 
+        "ansible_processor_cores": 1, 
+        "ansible_processor_count": 1, 
+        "ansible_processor_threads_per_core": 1, 
+        "ansible_processor_vcpus": 1, 
+        "ansible_product_name": "HVM domU", 
+        "ansible_product_serial": "NA", 
+        "ansible_product_uuid": "NA", 
+        "ansible_product_version": "4.2.amazon", 
+        "ansible_python": {
+            "executable": "/usr/bin/python", 
+            "has_sslcontext": true, 
+            "type": "CPython", 
+            "version": {
+                "major": 2, 
+                "micro": 5, 
+                "minor": 7, 
+                "releaselevel": "final", 
+                "serial": 0
+            }, 
+            "version_info": [
+                2, 
+                7, 
+                5, 
+                "final", 
+                0
+            ]
+        }, 
+        "ansible_python_version": "2.7.5", 
+        "ansible_selinux": {
+            "config_mode": "enforcing", 
+            "mode": "enforcing", 
+            "policyvers": 28, 
+            "status": "enabled", 
+            "type": "targeted"
+        }, 
+        "ansible_service_mgr": "systemd", 
+        "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGU6lV76S2pUqYgIf12BtJLPzQHaCWYzVWO+nnN+7ya7a2a1RhXE8ss/quBJyvRR1UYf3YeGA4F4gMk7jrYhxf8=", 
+        "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIDjFAKdI+EB7TaHbJ2mlWcrBV7AUbttnY+RmHPgC2frb", 
+        "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDRtVctFcQIupAs+5aJukqDNtW02FGLHu/hJDiF/N5zqvrVdRrXcSTkg1LamWzMdtEPhW2ngfY11oRx3JX48rumQraYr12pCnJi+aKXx4xt1+rTASOlVxDt2tnuTIxBqk0MpRYprjzFhfx+d0m/tHfFDJytKq+91hWfo1SuNmIv1G13AEPdc5n0gLZensqtEX7R8DzYUuIUTKd+ZlbiZmu74M9PWW0LR526YIpEA6QZvoVPmfdZloan0EZibhSmekXmKkPWBDZN6LlGXp9ldwT00g2xlLoNm/EWby/jHrGfuGnkMDC/s+9s4hVNnh7Lc56oLP9IvQ8pS+LIjKWqrtZ3", 
+        "ansible_swapfree_mb": 0, 
+        "ansible_swaptotal_mb": 0, 
+        "ansible_system": "Linux", 
+        "ansible_system_capabilities": [
+            ""
+        ], 
+        "ansible_system_capabilities_enforced": "True", 
+        "ansible_system_vendor": "Xen", 
+        "ansible_uptime_seconds": 36774, 
+        "ansible_user_dir": "/home/ec2-user", 
+        "ansible_user_gecos": "Cloud User", 
+        "ansible_user_gid": 1000, 
+        "ansible_user_id": "ec2-user", 
+        "ansible_user_shell": "/bin/bash", 
+        "ansible_user_uid": 1000, 
+        "ansible_userspace_architecture": "x86_64", 
+        "ansible_userspace_bits": "64", 
+        "ansible_virtualization_role": "guest", 
+        "ansible_virtualization_type": "xen", 
+        "module_setup": true
+    }, 
+    "changed": false
+}
+2016-07-01 23:53:12,500 p=6412 u=root |  PLAY [rhel-01] *****************************************************************
+2016-07-01 23:53:12,597 p=6412 u=root |  TASK [setup] *******************************************************************
+2016-07-01 23:53:20,701 p=6412 u=root |  ok: [rhel-01]
+2016-07-01 23:53:20,705 p=6412 u=root |  TASK [geerlingguy.java : Include OS-specific variables.] ***********************
+2016-07-01 23:53:20,775 p=6412 u=root |  ok: [rhel-01]
+2016-07-01 23:53:20,777 p=6412 u=root |  TASK [geerlingguy.java : Include version-specific variables for Ubuntu.] *******
+2016-07-01 23:53:20,821 p=6412 u=root |  skipping: [rhel-01]
+2016-07-01 23:53:20,824 p=6412 u=root |  TASK [geerlingguy.java : Define java_packages.] ********************************
+2016-07-01 23:53:20,885 p=6412 u=root |  ok: [rhel-01]
+2016-07-01 23:53:20,887 p=6412 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-01 23:53:20,940 p=6412 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/setup-RedHat.yml for rhel-01
+2016-07-01 23:53:20,951 p=6412 u=root |  TASK [geerlingguy.java : Ensure Java is installed.] ****************************
+2016-07-01 23:53:25,752 p=6412 u=root |  ok: [rhel-01] => (item=[u'java-1.7.0-openjdk'])
+2016-07-01 23:53:25,760 p=6412 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-01 23:53:25,798 p=6412 u=root |  skipping: [rhel-01]
+2016-07-01 23:53:25,803 p=6412 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-01 23:53:25,840 p=6412 u=root |  skipping: [rhel-01]
+2016-07-01 23:53:25,844 p=6412 u=root |  TASK [geerlingguy.jenkins : Include OS-Specific variables] *********************
+2016-07-01 23:53:25,915 p=6412 u=root |  ok: [rhel-01]
+2016-07-01 23:53:25,917 p=6412 u=root |  TASK [geerlingguy.jenkins : Define jenkins_repo_url] ***************************
+2016-07-01 23:53:25,974 p=6412 u=root |  ok: [rhel-01]
+2016-07-01 23:53:25,976 p=6412 u=root |  TASK [geerlingguy.jenkins : Define jenkins_repo_key_url] ***********************
+2016-07-01 23:53:26,031 p=6412 u=root |  ok: [rhel-01]
+2016-07-01 23:53:26,034 p=6412 u=root |  TASK [geerlingguy.jenkins : Install curl] **************************************
+2016-07-01 23:53:30,762 p=6412 u=root |  ok: [rhel-01]
+2016-07-01 23:53:30,764 p=6412 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 23:53:30,833 p=6412 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/setup-RedHat.yml for rhel-01
+2016-07-01 23:53:30,843 p=6412 u=root |  TASK [geerlingguy.jenkins : Ensure dependencies are installed.] ****************
+2016-07-01 23:53:35,378 p=6412 u=root |  ok: [rhel-01]
+2016-07-01 23:53:35,380 p=6412 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins repo is installed.] *****************
+2016-07-01 23:53:39,885 p=6412 u=root |  ok: [rhel-01]
+2016-07-01 23:53:39,887 p=6412 u=root |  TASK [geerlingguy.jenkins : Add Jenkins repo GPG key.] *************************
+2016-07-01 23:53:44,901 p=6412 u=root |  ok: [rhel-01]
+2016-07-01 23:53:44,904 p=6412 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins is installed.] **********************
+2016-07-01 23:53:49,613 p=6412 u=root |  ok: [rhel-01]
+2016-07-01 23:53:49,615 p=6412 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 23:53:49,645 p=6412 u=root |  skipping: [rhel-01]
+2016-07-01 23:53:49,649 p=6412 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 23:53:49,720 p=6412 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/settings.yml for rhel-01
+2016-07-01 23:53:49,738 p=6412 u=root |  TASK [geerlingguy.jenkins : Ensure URL prefix is present in Jenkins config.] ***
+2016-07-01 23:53:54,230 p=6412 u=root |  ok: [rhel-01]
+2016-07-01 23:53:54,232 p=6412 u=root |  TASK [geerlingguy.jenkins : Immediately restart Jenkins on init config changes.] ***
+2016-07-01 23:53:54,276 p=6412 u=root |  skipping: [rhel-01]
+2016-07-01 23:53:54,278 p=6412 u=root |  TASK [geerlingguy.jenkins : Set HTTP port in Jenkins config.] ******************
+2016-07-01 23:53:58,427 p=6412 u=root |  ok: [rhel-01]
+2016-07-01 23:53:58,429 p=6412 u=root |  TASK [geerlingguy.jenkins : Immediately restart Jenkins on http config changes.] ***
+2016-07-01 23:53:58,472 p=6412 u=root |  skipping: [rhel-01]
+2016-07-01 23:53:58,475 p=6412 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins is started and runs on startup.] ****
+2016-07-01 23:54:02,942 p=6412 u=root |  ok: [rhel-01]
+2016-07-01 23:54:02,944 p=6412 u=root |  TASK [geerlingguy.jenkins : Wait for Jenkins to start up before proceeding.] ***
+2016-07-01 23:54:07,736 p=6412 u=root |  ok: [rhel-01]
+2016-07-01 23:54:07,737 p=6412 u=root |   [WARNING]: Consider using get_url or uri module rather than running curl
+
+2016-07-01 23:54:07,739 p=6412 u=root |  TASK [geerlingguy.jenkins : Get the jenkins-cli jarfile from the Jenkins server.] ***
+2016-07-01 23:54:12,036 p=6412 u=root |  ok: [rhel-01]
+2016-07-01 23:54:12,038 p=6412 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-01 23:54:12,106 p=6412 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/plugins.yml for rhel-01
+2016-07-01 23:54:12,131 p=6412 u=root |  TASK [geerlingguy.jenkins : Create Jenkins updates folder.] ********************
+2016-07-01 23:54:16,591 p=6412 u=root |  ok: [rhel-01]
+2016-07-01 23:54:16,593 p=6412 u=root |  TASK [geerlingguy.jenkins : Update Jenkins plugin data.] ***********************
+2016-07-01 23:54:20,991 p=6412 u=root |  ok: [rhel-01]
+2016-07-01 23:54:20,993 p=6412 u=root |  TASK [geerlingguy.jenkins : Permissions for default.json updates info.] ********
+2016-07-01 23:54:25,294 p=6412 u=root |  changed: [rhel-01]
+2016-07-01 23:54:25,296 p=6412 u=root |  TASK [geerlingguy.jenkins : Install Jenkins plugins.] **************************
+2016-07-01 23:54:25,341 p=6412 u=root |  PLAY RECAP *********************************************************************
+2016-07-01 23:54:25,342 p=6412 u=root |  rhel-01                    : ok=24   changed=1    unreachable=0    failed=0   
+2016-07-02 00:14:11,822 p=6544 u=root |  PLAY [rhel-01] *****************************************************************
+2016-07-02 00:14:11,854 p=6544 u=root |  TASK [setup] *******************************************************************
+2016-07-02 00:14:20,203 p=6544 u=root |  ok: [rhel-01]
+2016-07-02 00:14:20,214 p=6544 u=root |  TASK [geerlingguy.java : Include OS-specific variables.] ***********************
+2016-07-02 00:14:20,282 p=6544 u=root |  ok: [rhel-01]
+2016-07-02 00:14:20,284 p=6544 u=root |  TASK [geerlingguy.java : Include version-specific variables for Ubuntu.] *******
+2016-07-02 00:14:20,325 p=6544 u=root |  skipping: [rhel-01]
+2016-07-02 00:14:20,329 p=6544 u=root |  TASK [geerlingguy.java : Define java_packages.] ********************************
+2016-07-02 00:14:20,390 p=6544 u=root |  ok: [rhel-01]
+2016-07-02 00:14:20,392 p=6544 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-02 00:14:20,453 p=6544 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/setup-RedHat.yml for rhel-01
+2016-07-02 00:14:20,461 p=6544 u=root |  TASK [geerlingguy.java : Ensure Java is installed.] ****************************
+2016-07-02 00:14:25,190 p=6544 u=root |  ok: [rhel-01] => (item=[u'java-1.7.0-openjdk'])
+2016-07-02 00:14:25,198 p=6544 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-02 00:14:25,236 p=6544 u=root |  skipping: [rhel-01]
+2016-07-02 00:14:25,238 p=6544 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-02 00:14:25,275 p=6544 u=root |  skipping: [rhel-01]
+2016-07-02 00:14:25,277 p=6544 u=root |  TASK [geerlingguy.jenkins : Include OS-Specific variables] *********************
+2016-07-02 00:14:25,351 p=6544 u=root |  ok: [rhel-01]
+2016-07-02 00:14:25,353 p=6544 u=root |  TASK [geerlingguy.jenkins : Define jenkins_repo_url] ***************************
+2016-07-02 00:14:25,410 p=6544 u=root |  ok: [rhel-01]
+2016-07-02 00:14:25,412 p=6544 u=root |  TASK [geerlingguy.jenkins : Define jenkins_repo_key_url] ***********************
+2016-07-02 00:14:25,466 p=6544 u=root |  ok: [rhel-01]
+2016-07-02 00:14:25,468 p=6544 u=root |  TASK [geerlingguy.jenkins : Install curl] **************************************
+2016-07-02 00:14:30,117 p=6544 u=root |  ok: [rhel-01]
+2016-07-02 00:14:30,119 p=6544 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-02 00:14:30,184 p=6544 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/setup-RedHat.yml for rhel-01
+2016-07-02 00:14:30,194 p=6544 u=root |  TASK [geerlingguy.jenkins : Ensure dependencies are installed.] ****************
+2016-07-02 00:14:34,818 p=6544 u=root |  ok: [rhel-01]
+2016-07-02 00:14:34,821 p=6544 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins repo is installed.] *****************
+2016-07-02 00:14:39,327 p=6544 u=root |  ok: [rhel-01]
+2016-07-02 00:14:39,329 p=6544 u=root |  TASK [geerlingguy.jenkins : Add Jenkins repo GPG key.] *************************
+2016-07-02 00:14:44,340 p=6544 u=root |  ok: [rhel-01]
+2016-07-02 00:14:44,343 p=6544 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins is installed.] **********************
+2016-07-02 00:14:49,051 p=6544 u=root |  ok: [rhel-01]
+2016-07-02 00:14:49,053 p=6544 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-02 00:14:49,083 p=6544 u=root |  skipping: [rhel-01]
+2016-07-02 00:14:49,087 p=6544 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-02 00:14:49,152 p=6544 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/settings.yml for rhel-01
+2016-07-02 00:14:49,170 p=6544 u=root |  TASK [geerlingguy.jenkins : Ensure URL prefix is present in Jenkins config.] ***
+2016-07-02 00:14:54,606 p=6544 u=root |  ok: [rhel-01]
+2016-07-02 00:14:54,608 p=6544 u=root |  TASK [geerlingguy.jenkins : Immediately restart Jenkins on init config changes.] ***
+2016-07-02 00:14:54,653 p=6544 u=root |  skipping: [rhel-01]
+2016-07-02 00:14:54,656 p=6544 u=root |  TASK [geerlingguy.jenkins : Set HTTP port in Jenkins config.] ******************
+2016-07-02 00:15:02,984 p=6544 u=root |  ok: [rhel-01]
+2016-07-02 00:15:02,986 p=6544 u=root |  TASK [geerlingguy.jenkins : Immediately restart Jenkins on http config changes.] ***
+2016-07-02 00:15:03,035 p=6544 u=root |  skipping: [rhel-01]
+2016-07-02 00:15:03,037 p=6544 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins is started and runs on startup.] ****
+2016-07-02 00:15:07,954 p=6544 u=root |  ok: [rhel-01]
+2016-07-02 00:15:07,956 p=6544 u=root |  TASK [geerlingguy.jenkins : Wait for Jenkins to start up before proceeding.] ***
+2016-07-02 00:15:13,597 p=6544 u=root |  ok: [rhel-01]
+2016-07-02 00:15:13,598 p=6544 u=root |   [WARNING]: Consider using get_url or uri module rather than running curl
+
+2016-07-02 00:15:13,600 p=6544 u=root |  TASK [geerlingguy.jenkins : Get the jenkins-cli jarfile from the Jenkins server.] ***
+2016-07-02 00:15:18,539 p=6544 u=root |  ok: [rhel-01]
+2016-07-02 00:15:18,542 p=6544 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-02 00:15:18,611 p=6544 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/plugins.yml for rhel-01
+2016-07-02 00:15:18,638 p=6544 u=root |  TASK [geerlingguy.jenkins : Create Jenkins updates folder.] ********************
+2016-07-02 00:15:22,992 p=6544 u=root |  ok: [rhel-01]
+2016-07-02 00:15:22,994 p=6544 u=root |  TASK [geerlingguy.jenkins : Update Jenkins plugin data.] ***********************
+2016-07-02 00:15:27,145 p=6544 u=root |  ok: [rhel-01]
+2016-07-02 00:15:27,147 p=6544 u=root |  TASK [geerlingguy.jenkins : Permissions for default.json updates info.] ********
+2016-07-02 00:15:32,631 p=6544 u=root |  ok: [rhel-01]
+2016-07-02 00:15:32,633 p=6544 u=root |  TASK [geerlingguy.jenkins : Install Jenkins plugins.] **************************
+2016-07-02 00:15:32,679 p=6544 u=root |  PLAY RECAP *********************************************************************
+2016-07-02 00:15:32,679 p=6544 u=root |  rhel-01                    : ok=24   changed=0    unreachable=0    failed=0   
+2016-07-02 00:21:27,437 p=6675 u=root |  jenkins-01 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-02 00:24:50,200 p=6693 u=root |  ERROR! Syntax Error while loading YAML.
+
+
+The error appears to have been in '/Users/rgodishela/ansible/day01/TestRole.yml': line 1, column 11, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- hosts: {{ host }}
+          ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes.  Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2016-07-02 00:25:49,022 p=6700 u=root |  playbook: TestRole.yml
+2016-07-02 00:25:49,023 p=6700 u=root |    play #1 (jenkins): jenkins	TAGS: []
+    pattern: [u'jenkins']
+    hosts (1):
+      jenkins-01
+2016-07-02 00:26:44,540 p=6708 u=root |  PLAY [jenkins] *****************************************************************
+2016-07-02 00:26:44,575 p=6708 u=root |  TASK [setup] *******************************************************************
+2016-07-02 00:26:53,811 p=6708 u=root |  ok: [jenkins-01]
+2016-07-02 00:26:53,816 p=6708 u=root |  TASK [geerlingguy.java : Include OS-specific variables.] ***********************
+2016-07-02 00:26:53,879 p=6708 u=root |  ok: [jenkins-01]
+2016-07-02 00:26:53,881 p=6708 u=root |  TASK [geerlingguy.java : Include version-specific variables for Ubuntu.] *******
+2016-07-02 00:26:53,910 p=6708 u=root |  skipping: [jenkins-01]
+2016-07-02 00:26:53,917 p=6708 u=root |  TASK [geerlingguy.java : Define java_packages.] ********************************
+2016-07-02 00:26:53,977 p=6708 u=root |  ok: [jenkins-01]
+2016-07-02 00:26:53,980 p=6708 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-02 00:26:54,021 p=6708 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.java/tasks/setup-RedHat.yml for jenkins-01
+2016-07-02 00:26:54,033 p=6708 u=root |  TASK [geerlingguy.java : Ensure Java is installed.] ****************************
+2016-07-02 00:27:54,362 p=6708 u=root |  changed: [jenkins-01] => (item=[u'java-1.7.0-openjdk'])
+2016-07-02 00:27:54,369 p=6708 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-02 00:27:54,395 p=6708 u=root |  skipping: [jenkins-01]
+2016-07-02 00:27:54,401 p=6708 u=root |  TASK [geerlingguy.java : include] **********************************************
+2016-07-02 00:27:54,434 p=6708 u=root |  skipping: [jenkins-01]
+2016-07-02 00:27:54,436 p=6708 u=root |  TASK [geerlingguy.jenkins : Include OS-Specific variables] *********************
+2016-07-02 00:27:54,517 p=6708 u=root |  ok: [jenkins-01]
+2016-07-02 00:27:54,519 p=6708 u=root |  TASK [geerlingguy.jenkins : Define jenkins_repo_url] ***************************
+2016-07-02 00:27:54,573 p=6708 u=root |  ok: [jenkins-01]
+2016-07-02 00:27:54,575 p=6708 u=root |  TASK [geerlingguy.jenkins : Define jenkins_repo_key_url] ***********************
+2016-07-02 00:27:54,640 p=6708 u=root |  ok: [jenkins-01]
+2016-07-02 00:27:54,646 p=6708 u=root |  TASK [geerlingguy.jenkins : Install curl] **************************************
+2016-07-02 00:27:59,687 p=6708 u=root |  ok: [jenkins-01]
+2016-07-02 00:27:59,689 p=6708 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-02 00:27:59,750 p=6708 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/setup-RedHat.yml for jenkins-01
+2016-07-02 00:27:59,763 p=6708 u=root |  TASK [geerlingguy.jenkins : Ensure dependencies are installed.] ****************
+2016-07-02 00:28:05,040 p=6708 u=root |  ok: [jenkins-01]
+2016-07-02 00:28:05,043 p=6708 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins repo is installed.] *****************
+2016-07-02 00:28:13,521 p=6708 u=root |  changed: [jenkins-01]
+2016-07-02 00:28:13,524 p=6708 u=root |  TASK [geerlingguy.jenkins : Add Jenkins repo GPG key.] *************************
+2016-07-02 00:28:19,971 p=6708 u=root |  changed: [jenkins-01]
+2016-07-02 00:28:19,973 p=6708 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins is installed.] **********************
+2016-07-02 00:28:58,513 p=6708 u=root |  changed: [jenkins-01]
+2016-07-02 00:28:58,523 p=6708 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-02 00:28:58,547 p=6708 u=root |  skipping: [jenkins-01]
+2016-07-02 00:28:58,554 p=6708 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-02 00:28:58,613 p=6708 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/settings.yml for jenkins-01
+2016-07-02 00:28:58,634 p=6708 u=root |  TASK [geerlingguy.jenkins : Ensure URL prefix is present in Jenkins config.] ***
+2016-07-02 00:29:05,893 p=6708 u=root |  changed: [jenkins-01]
+2016-07-02 00:29:05,896 p=6708 u=root |  TASK [geerlingguy.jenkins : Immediately restart Jenkins on init config changes.] ***
+2016-07-02 00:29:11,579 p=6708 u=root |  changed: [jenkins-01]
+2016-07-02 00:29:11,582 p=6708 u=root |  TASK [geerlingguy.jenkins : Set HTTP port in Jenkins config.] ******************
+2016-07-02 00:29:19,538 p=6708 u=root |  changed: [jenkins-01]
+2016-07-02 00:29:19,540 p=6708 u=root |  TASK [geerlingguy.jenkins : Immediately restart Jenkins on http config changes.] ***
+2016-07-02 00:29:27,248 p=6708 u=root |  changed: [jenkins-01]
+2016-07-02 00:29:27,251 p=6708 u=root |  TASK [geerlingguy.jenkins : Ensure Jenkins is started and runs on startup.] ****
+2016-07-02 00:29:35,552 p=6708 u=root |  ok: [jenkins-01]
+2016-07-02 00:29:35,554 p=6708 u=root |  TASK [geerlingguy.jenkins : Wait for Jenkins to start up before proceeding.] ***
+2016-07-02 00:29:42,273 p=6708 u=root |  ok: [jenkins-01]
+2016-07-02 00:29:42,274 p=6708 u=root |   [WARNING]: Consider using get_url or uri module rather than running curl
+
+2016-07-02 00:29:42,276 p=6708 u=root |  TASK [geerlingguy.jenkins : Get the jenkins-cli jarfile from the Jenkins server.] ***
+2016-07-02 00:29:48,193 p=6708 u=root |  changed: [jenkins-01]
+2016-07-02 00:29:48,195 p=6708 u=root |  TASK [geerlingguy.jenkins : include] *******************************************
+2016-07-02 00:29:48,269 p=6708 u=root |  included: /Users/rgodishela/ansible/day01/roles/geerlingguy.jenkins/tasks/plugins.yml for jenkins-01
+2016-07-02 00:29:48,298 p=6708 u=root |  TASK [geerlingguy.jenkins : Create Jenkins updates folder.] ********************
+2016-07-02 00:29:54,264 p=6708 u=root |  ok: [jenkins-01]
+2016-07-02 00:29:54,266 p=6708 u=root |  TASK [geerlingguy.jenkins : Update Jenkins plugin data.] ***********************
+2016-07-02 00:29:59,387 p=6708 u=root |  ok: [jenkins-01]
+2016-07-02 00:29:59,390 p=6708 u=root |  TASK [geerlingguy.jenkins : Permissions for default.json updates info.] ********
+2016-07-02 00:30:04,011 p=6708 u=root |  changed: [jenkins-01]
+2016-07-02 00:30:04,013 p=6708 u=root |  TASK [geerlingguy.jenkins : Install Jenkins plugins.] **************************
+2016-07-02 00:30:04,061 p=6708 u=root |  PLAY RECAP *********************************************************************
+2016-07-02 00:30:04,061 p=6708 u=root |  jenkins-01                 : ok=26   changed=10   unreachable=0    failed=0   
+2016-07-02 00:58:42,053 p=7157 u=root |  PLAY [rhel-01] *****************************************************************
+2016-07-02 00:58:42,082 p=7157 u=root |  TASK [Find uptime] *************************************************************
+2016-07-02 00:58:49,846 p=7157 u=root |  changed: [rhel-01]
+2016-07-02 00:58:49,848 p=7157 u=root |  TASK [debug] *******************************************************************
+2016-07-02 00:58:49,906 p=7157 u=root |  ok: [rhel-01] => {
+    "UpTimeOutput.stdout_lines": [
+        " 15:28:49 up 12:11,  2 users,  load average: 0.00, 0.01, 0.05"
+    ]
+}
+2016-07-02 00:58:49,908 p=7157 u=root |  PLAY RECAP *********************************************************************
+2016-07-02 00:58:49,908 p=7157 u=root |  rhel-01                    : ok=2    changed=1    unreachable=0    failed=0   
+2016-07-02 11:46:14,091 p=7813 u=root |    hosts (6):
+2016-07-02 11:46:14,092 p=7813 u=root |      rhel-01
+2016-07-02 11:46:14,092 p=7813 u=root |      rhel-02
+2016-07-02 11:46:14,092 p=7813 u=root |      rhel-03
+2016-07-02 11:46:14,092 p=7813 u=root |      deb-01
+2016-07-02 11:46:14,093 p=7813 u=root |      deb-02
+2016-07-02 11:46:14,093 p=7813 u=root |      jenkins-01
+2016-07-02 11:46:40,767 p=7819 u=root |    hosts (1):
+2016-07-02 11:46:40,768 p=7819 u=root |      jenkins-01
+2016-07-02 11:47:06,969 p=7823 u=root |  jenkins-01 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-02 12:35:48,600 p=8068 u=root |  rhel-03 | SUCCESS | rc=0 >>
+ 03:05:48 up 23:48,  1 user,  load average: 0.00, 0.01, 0.05
+
+2016-07-02 12:35:48,952 p=8068 u=root |  rhel-02 | SUCCESS | rc=0 >>
+ 03:05:49 up 23:48,  1 user,  load average: 0.00, 0.01, 0.05
+
+2016-07-02 12:35:48,983 p=8068 u=root |  rhel-01 | SUCCESS | rc=0 >>
+ 03:05:49 up 23:48,  1 user,  load average: 0.00, 0.01, 0.05
+
+2016-07-02 12:35:49,377 p=8068 u=root |  deb-01 | SUCCESS | rc=0 >>
+ 07:05:49 up 23:47,  1 user,  load average: 0.00, 0.01, 0.05
+
+2016-07-02 12:35:49,385 p=8068 u=root |  deb-02 | SUCCESS | rc=0 >>
+ 07:05:49 up 23:47,  1 user,  load average: 0.00, 0.01, 0.05
+
+2016-07-02 12:35:55,611 p=8068 u=root |  jenkins-01 | SUCCESS | rc=0 >>
+ 03:05:55 up 12:15,  1 user,  load average: 0.00, 0.01, 0.05
+
+2016-07-02 12:38:06,611 p=8135 u=root |  deb-01 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-07-02 12:38:06,621 p=8135 u=root |  deb-02 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-07-02 12:38:06,638 p=8135 u=root |  rhel-02 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-07-02 12:38:06,714 p=8135 u=root |  rhel-03 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-07-02 12:38:06,983 p=8135 u=root |  rhel-01 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-07-02 12:38:13,484 p=8135 u=root |  jenkins-01 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-07-02 12:39:07,405 p=8195 u=root |  rhel-02 | FAILED | rc=1 >>
+
+
+2016-07-02 12:39:07,407 p=8195 u=root |  rhel-03 | FAILED | rc=1 >>
+
+
+2016-07-02 12:39:07,426 p=8195 u=root |  deb-01 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-07-02 12:39:07,427 p=8195 u=root |  deb-02 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-07-02 12:39:07,618 p=8195 u=root |  rhel-01 | FAILED | rc=1 >>
+
+
+2016-07-02 12:39:11,443 p=8195 u=root |  jenkins-01 | FAILED | rc=1 >>
+
+
+2016-07-02 12:41:23,516 p=8241 u=root |  deb-01 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-07-02 12:41:23,611 p=8241 u=root |  deb-02 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-07-02 12:41:23,683 p=8241 u=root |  rhel-03 | FAILED | rc=1 >>
+Loaded plugins: amazon-id, rhui-lb, search-disabled-reposRepo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/product/rhui-client-config-server-7.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/rhui-client-config-server-7.key
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+You need to be root to perform this command.
+
+2016-07-02 12:41:24,161 p=8241 u=root |  rhel-01 | FAILED | rc=1 >>
+Loaded plugins: amazon-id, rhui-lb, search-disabled-reposRepo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/product/rhui-client-config-server-7.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/rhui-client-config-server-7.key
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+You need to be root to perform this command.
+
+2016-07-02 12:41:24,245 p=8241 u=root |  rhel-02 | FAILED | rc=1 >>
+Loaded plugins: amazon-id, rhui-lb, search-disabled-reposRepo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/product/rhui-client-config-server-7.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/rhui-client-config-server-7.key
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+You need to be root to perform this command.
+
+2016-07-02 12:41:30,528 p=8241 u=root |  jenkins-01 | FAILED | rc=1 >>
+Loaded plugins: amazon-id, rhui-lb, search-disabled-reposRepo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/product/rhui-client-config-server-7.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/rhui-client-config-server-7.key
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+You need to be root to perform this command.
+
+2016-07-02 12:41:48,354 p=8301 u=root |  deb-01 | SUCCESS | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+udev            492M   12K  492M   1% /dev
+tmpfs           100M  324K   99M   1% /run
+/dev/xvda1       30G  925M   28G   4% /
+none            4.0K     0  4.0K   0% /sys/fs/cgroup
+none            5.0M     0  5.0M   0% /run/lock
+none            497M     0  497M   0% /run/shm
+none            100M     0  100M   0% /run/user
+
+2016-07-02 12:41:48,380 p=8301 u=root |  rhel-03 | SUCCESS | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/xvda2       30G  930M   30G   4% /
+devtmpfs        479M     0  479M   0% /dev
+tmpfs           496M     0  496M   0% /dev/shm
+tmpfs           496M   13M  484M   3% /run
+tmpfs           496M     0  496M   0% /sys/fs/cgroup
+tmpfs           100M     0  100M   0% /run/user/0
+tmpfs           100M     0  100M   0% /run/user/1000
+
+2016-07-02 12:41:48,387 p=8301 u=root |  deb-02 | SUCCESS | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+udev            492M   12K  492M   1% /dev
+tmpfs           100M  324K   99M   1% /run
+/dev/xvda1       30G  925M   28G   4% /
+none            4.0K     0  4.0K   0% /sys/fs/cgroup
+none            5.0M     0  5.0M   0% /run/lock
+none            497M     0  497M   0% /run/shm
+none            100M     0  100M   0% /run/user
+
+2016-07-02 12:41:48,585 p=8301 u=root |  rhel-02 | SUCCESS | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/xvda2       30G  930M   30G   4% /
+devtmpfs        479M     0  479M   0% /dev
+tmpfs           496M     0  496M   0% /dev/shm
+tmpfs           496M   13M  484M   3% /run
+tmpfs           496M     0  496M   0% /sys/fs/cgroup
+tmpfs           100M     0  100M   0% /run/user/0
+tmpfs           100M     0  100M   0% /run/user/1000
+
+2016-07-02 12:41:48,591 p=8301 u=root |  rhel-01 | SUCCESS | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/xvda2       30G  1.4G   29G   5% /
+devtmpfs        479M     0  479M   0% /dev
+tmpfs           496M     0  496M   0% /dev/shm
+tmpfs           496M   19M  477M   4% /run
+tmpfs           496M     0  496M   0% /sys/fs/cgroup
+tmpfs           100M     0  100M   0% /run/user/0
+tmpfs           100M     0  100M   0% /run/user/1000
+
+2016-07-02 12:41:52,396 p=8301 u=root |  jenkins-01 | SUCCESS | rc=0 >>
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/xvda2       10G  1.4G  8.7G  14% /
+devtmpfs        479M     0  479M   0% /dev
+tmpfs           496M     0  496M   0% /dev/shm
+tmpfs           496M   13M  484M   3% /run
+tmpfs           496M     0  496M   0% /sys/fs/cgroup
+tmpfs           100M     0  100M   0% /run/user/1000
+
+2016-07-02 12:42:20,073 p=8350 u=root |  rhel-03 | SUCCESS | rc=0 >>
+3.10.0-327.el7.x86_64
+
+2016-07-02 12:42:20,079 p=8350 u=root |  deb-01 | SUCCESS | rc=0 >>
+3.13.0-74-generic
+
+2016-07-02 12:42:20,175 p=8350 u=root |  deb-02 | SUCCESS | rc=0 >>
+3.13.0-74-generic
+
+2016-07-02 12:42:20,348 p=8350 u=root |  rhel-01 | SUCCESS | rc=0 >>
+3.10.0-327.el7.x86_64
+
+2016-07-02 12:42:20,377 p=8350 u=root |  rhel-02 | SUCCESS | rc=0 >>
+3.10.0-327.el7.x86_64
+
+2016-07-02 12:42:24,073 p=8350 u=root |  jenkins-01 | SUCCESS | rc=0 >>
+3.10.0-327.el7.x86_64
+
+2016-07-02 12:42:51,260 p=8391 u=root |  deb-01 | FAILED | rc=1 >>
+cat: /etc/redhat-release: No such file or directory
+
+2016-07-02 12:42:51,278 p=8391 u=root |  rhel-03 | SUCCESS | rc=0 >>
+Red Hat Enterprise Linux Server release 7.2 (Maipo)
+
+2016-07-02 12:42:51,298 p=8391 u=root |  deb-02 | FAILED | rc=1 >>
+cat: /etc/redhat-release: No such file or directory
+
+2016-07-02 12:42:51,484 p=8391 u=root |  rhel-01 | SUCCESS | rc=0 >>
+Red Hat Enterprise Linux Server release 7.2 (Maipo)
+
+2016-07-02 12:42:51,515 p=8391 u=root |  rhel-02 | SUCCESS | rc=0 >>
+Red Hat Enterprise Linux Server release 7.2 (Maipo)
+
+2016-07-02 12:42:55,266 p=8391 u=root |  jenkins-01 | SUCCESS | rc=0 >>
+Red Hat Enterprise Linux Server release 7.2 (Maipo)
+
+2016-07-02 12:43:11,761 p=8436 u=root |  deb-01 | SUCCESS | rc=0 >>
+Ubuntu 14.04.3 LTS \n \l
+
+2016-07-02 12:43:11,784 p=8436 u=root |  rhel-03 | SUCCESS | rc=0 >>
+\S
+Kernel \r on an \m
+
+2016-07-02 12:43:11,848 p=8436 u=root |  deb-02 | SUCCESS | rc=0 >>
+Ubuntu 14.04.3 LTS \n \l
+
+2016-07-02 12:43:12,040 p=8436 u=root |  rhel-01 | SUCCESS | rc=0 >>
+\S
+Kernel \r on an \m
+
+2016-07-02 12:43:12,083 p=8436 u=root |  rhel-02 | SUCCESS | rc=0 >>
+\S
+Kernel \r on an \m
+
+2016-07-02 12:43:15,830 p=8436 u=root |  jenkins-01 | SUCCESS | rc=0 >>
+\S
+Kernel \r on an \m
+
+2016-07-02 12:44:27,494 p=8479 u=root |  deb-01 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-07-02 12:44:27,525 p=8479 u=root |  deb-02 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-07-02 12:44:28,106 p=8479 u=root |  rhel-03 | FAILED | rc=1 >>
+Loaded plugins: amazon-id, rhui-lb, search-disabled-repos
+Could not contact CDS load balancer rhui2-cds01.us-west-2.aws.ce.redhat.com, trying others.Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/product/rhui-client-config-server-7.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/rhui-client-config-server-7.key
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+
+
+Could not contact any CDS load balancers: rhui2-cds01.us-west-2.aws.ce.redhat.com, rhui2-cds02.us-west-2.aws.ce.redhat.com.
+
+2016-07-02 12:44:28,265 p=8479 u=root |  rhel-01 | FAILED | rc=1 >>
+Loaded plugins: amazon-id, rhui-lb, search-disabled-repos
+Could not contact CDS load balancer rhui2-cds01.us-west-2.aws.ce.redhat.com, trying others.Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/product/rhui-client-config-server-7.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/rhui-client-config-server-7.key
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+
+
+Could not contact any CDS load balancers: rhui2-cds01.us-west-2.aws.ce.redhat.com, rhui2-cds02.us-west-2.aws.ce.redhat.com.
+
+2016-07-02 12:44:28,510 p=8479 u=root |  rhel-02 | FAILED | rc=1 >>
+Loaded plugins: amazon-id, rhui-lb, search-disabled-repos
+Could not contact CDS load balancer rhui2-cds01.us-west-2.aws.ce.redhat.com, trying others.Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/product/rhui-client-config-server-7.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/rhui-client-config-server-7.key
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+
+
+Could not contact any CDS load balancers: rhui2-cds01.us-west-2.aws.ce.redhat.com, rhui2-cds02.us-west-2.aws.ce.redhat.com.
+
+2016-07-02 12:44:34,671 p=8479 u=root |  jenkins-01 | FAILED | rc=1 >>
+Loaded plugins: amazon-id, rhui-lb, search-disabled-repos
+Could not contact CDS load balancer rhui2-cds01.us-west-2.aws.ce.redhat.com, trying others.Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/product/rhui-client-config-server-7.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/rhui-client-config-server-7.key
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+
+
+Could not contact any CDS load balancers: rhui2-cds01.us-west-2.aws.ce.redhat.com, rhui2-cds02.us-west-2.aws.ce.redhat.com.
+
+2016-07-02 12:44:50,926 p=8539 u=root |  deb-01 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-07-02 12:44:50,928 p=8539 u=root |  deb-02 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-07-02 12:44:51,311 p=8539 u=root |  rhel-03 | FAILED | rc=1 >>
+Loaded plugins: amazon-id, rhui-lb, search-disabled-repos
+Could not contact CDS load balancer rhui2-cds01.us-west-2.aws.ce.redhat.com, trying others.Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/product/rhui-client-config-server-7.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/rhui-client-config-server-7.key
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+
+
+Could not contact any CDS load balancers: rhui2-cds01.us-west-2.aws.ce.redhat.com, rhui2-cds02.us-west-2.aws.ce.redhat.com.
+
+2016-07-02 12:44:51,431 p=8539 u=root |  rhel-01 | FAILED | rc=1 >>
+Loaded plugins: amazon-id, rhui-lb, search-disabled-repos
+Could not contact CDS load balancer rhui2-cds01.us-west-2.aws.ce.redhat.com, trying others.Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/product/rhui-client-config-server-7.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/rhui-client-config-server-7.key
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+
+
+Could not contact any CDS load balancers: rhui2-cds01.us-west-2.aws.ce.redhat.com, rhui2-cds02.us-west-2.aws.ce.redhat.com.
+
+2016-07-02 12:44:51,530 p=8539 u=root |  rhel-02 | FAILED | rc=1 >>
+Loaded plugins: amazon-id, rhui-lb, search-disabled-repos
+Could not contact CDS load balancer rhui2-cds01.us-west-2.aws.ce.redhat.com, trying others.Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/product/rhui-client-config-server-7.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/rhui-client-config-server-7.key
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+
+
+Could not contact any CDS load balancers: rhui2-cds01.us-west-2.aws.ce.redhat.com, rhui2-cds02.us-west-2.aws.ce.redhat.com.
+
+2016-07-02 12:44:55,217 p=8539 u=root |  jenkins-01 | FAILED | rc=1 >>
+Loaded plugins: amazon-id, rhui-lb, search-disabled-repos
+Could not contact CDS load balancer rhui2-cds01.us-west-2.aws.ce.redhat.com, trying others.Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/product/rhui-client-config-server-7.crt
+Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/rhui-client-config-server-7.key
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt
+Repo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key
+
+
+Could not contact any CDS load balancers: rhui2-cds01.us-west-2.aws.ce.redhat.com, rhui2-cds02.us-west-2.aws.ce.redhat.com.
+
+2016-07-02 12:46:03,327 p=8592 u=root |  deb-01 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-07-02 12:46:03,429 p=8592 u=root |  deb-02 | FAILED | rc=2 >>
+[Errno 2] No such file or directory
+
+2016-07-02 12:46:04,164 p=8592 u=root |  rhel-01 | SUCCESS | rc=0 >>
+Loaded plugins: amazon-id, rhui-lb, search-disabled-repos
+repo id                                           repo name               status
+!jenkins                                          Jenkins                    342
+!rhui-REGION-client-config-server-7/x86_64        Red Hat Update Infrastr      6
+!rhui-REGION-rhel-server-releases/7Server/x86_64  Red Hat Enterprise Linu 11,053
+!rhui-REGION-rhel-server-rh-common/7Server/x86_64 Red Hat Enterprise Linu    196
+repolist: 11,597
+
+2016-07-02 12:46:10,142 p=8592 u=root |  rhel-03 | SUCCESS | rc=0 >>
+Loaded plugins: amazon-id, rhui-lb, search-disabled-repos
+repo id                                          repo name                status
+rhui-REGION-client-config-server-7/x86_64        Red Hat Update Infrastru      6
+rhui-REGION-rhel-server-releases/7Server/x86_64  Red Hat Enterprise Linux 11,053
+rhui-REGION-rhel-server-rh-common/7Server/x86_64 Red Hat Enterprise Linux    196
+repolist: 11,255
+
+2016-07-02 12:46:10,319 p=8592 u=root |  rhel-02 | SUCCESS | rc=0 >>
+Loaded plugins: amazon-id, rhui-lb, search-disabled-repos
+repo id                                          repo name                status
+rhui-REGION-client-config-server-7/x86_64        Red Hat Update Infrastru      6
+rhui-REGION-rhel-server-releases/7Server/x86_64  Red Hat Enterprise Linux 11,053
+rhui-REGION-rhel-server-rh-common/7Server/x86_64 Red Hat Enterprise Linux    196
+repolist: 11,255
+
+2016-07-02 12:46:10,638 p=8592 u=root |  jenkins-01 | SUCCESS | rc=0 >>
+Loaded plugins: amazon-id, rhui-lb, search-disabled-repos
+repo id                                           repo name               status
+!jenkins                                          Jenkins                    342
+!rhui-REGION-client-config-server-7/x86_64        Red Hat Update Infrastr      6
+!rhui-REGION-rhel-server-releases/7Server/x86_64  Red Hat Enterprise Linu 11,053
+!rhui-REGION-rhel-server-rh-common/7Server/x86_64 Red Hat Enterprise Linu    196
+repolist: 11,597
+
+2016-07-02 12:57:09,141 p=8706 u=root |  rhel-01 | SUCCESS | rc=0 >>
+ 03:27:09 up 1 day, 10 min,  1 user,  load average: 0.00, 0.01, 0.05
+
+2016-07-02 12:58:54,810 p=8721 u=root |  playbook: TestPlaybook.yml
+2016-07-02 12:58:54,810 p=8721 u=root |    play #1 (rhel-01): rhel-01	TAGS: []
+    pattern: [u'rhel-01']
+    hosts (1):
+      rhel-01
+2016-07-02 12:59:22,150 p=8726 u=root |  playbook: TestPlaybook.yml
+2016-07-02 12:59:22,151 p=8726 u=root |    play #1 (rhel-01): rhel-01	TAGS: []
+2016-07-02 12:59:22,153 p=8726 u=root |      tasks:
+      Find uptime	TAGS: []
+      debug	TAGS: []
+
+2016-07-02 12:59:36,911 p=8730 u=root |  playbook: TestPlaybook.yml
+2016-07-02 12:59:36,911 p=8730 u=root |    play #1 (rhel-01): rhel-01	TAGS: []
+2016-07-02 12:59:36,914 p=8730 u=root |        TASK TAGS: []
+
+2016-07-02 13:00:20,970 p=8734 u=root |  playbook: TestPlaybook.yml
+2016-07-02 13:00:57,551 p=8742 u=root |  PLAY [rhel-01] *****************************************************************
+2016-07-02 13:00:57,566 p=8742 u=root |  TASK [Find uptime] *************************************************************
+2016-07-02 13:01:16,472 p=8742 u=root |  skipping: [rhel-01]
+2016-07-02 13:01:16,481 p=8742 u=root |  TASK [debug] *******************************************************************
+2016-07-02 13:01:16,531 p=8742 u=root |  ok: [rhel-01] => {
+    "UpTimeOutput.stdout_lines": "VARIABLE IS NOT DEFINED!"
+}
+2016-07-02 13:01:16,533 p=8742 u=root |  PLAY RECAP *********************************************************************
+2016-07-02 13:01:16,533 p=8742 u=root |  rhel-01                    : ok=1    changed=0    unreachable=0    failed=0   
+2016-07-02 13:02:05,182 p=8759 u=root |  PLAY [rhel-01] *****************************************************************
+2016-07-02 13:02:05,198 p=8759 u=root |  TASK [Find uptime] *************************************************************
+2016-07-02 13:02:09,302 p=8759 u=root |  changed: [rhel-01]
+2016-07-02 13:02:09,304 p=8759 u=root |  TASK [debug] *******************************************************************
+2016-07-02 13:02:09,345 p=8759 u=root |  ok: [rhel-01] => {
+    "UpTimeOutput.stdout_lines": [
+        " 03:32:09 up 1 day, 15 min,  1 user,  load average: 0.00, 0.01, 0.05"
+    ]
+}
+2016-07-02 13:02:09,347 p=8759 u=root |  PLAY RECAP *********************************************************************
+2016-07-02 13:02:09,347 p=8759 u=root |  rhel-01                    : ok=2    changed=1    unreachable=0    failed=0   
+2016-07-02 13:08:46,591 p=8777 u=root |  PLAY [rhel-01] *****************************************************************
+2016-07-02 13:08:46,607 p=8777 u=root |  TASK [Find uptime] *************************************************************
+2016-07-02 13:08:53,983 p=8777 u=root |  changed: [rhel-01]
+2016-07-02 13:08:53,984 p=8777 u=root |  TASK [debug] *******************************************************************
+2016-07-02 13:08:54,028 p=8777 u=root |  ok: [rhel-01] => {
+    "UpTimeOutput": {
+        "changed": true, 
+        "cmd": [
+            "uptime"
+        ], 
+        "delta": "0:00:00.003079", 
+        "end": "2016-07-02 03:38:54.201324", 
+        "rc": 0, 
+        "start": "2016-07-02 03:38:54.198245", 
+        "stderr": "", 
+        "stdout": " 03:38:54 up 1 day, 21 min,  1 user,  load average: 0.05, 0.03, 0.05", 
+        "stdout_lines": [
+            " 03:38:54 up 1 day, 21 min,  1 user,  load average: 0.05, 0.03, 0.05"
+        ], 
+        "warnings": []
+    }
+}
+2016-07-02 13:08:54,029 p=8777 u=root |  PLAY RECAP *********************************************************************
+2016-07-02 13:08:54,030 p=8777 u=root |  rhel-01                    : ok=2    changed=1    unreachable=0    failed=0   
+2016-07-02 13:12:16,860 p=8811 u=root |  ERROR! Syntax Error while loading YAML.
+
+
+The error appears to have been in '/Users/rgodishela/ansible/day01/TestPlaybook.yml': line 2, column 11, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- hosts: {{ rhel }}
+          ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes.  Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2016-07-02 13:12:53,987 p=8817 u=root |  PLAY [rhel-02] *****************************************************************
+2016-07-02 13:12:54,060 p=8817 u=root |  TASK [Find uptime] *************************************************************
+2016-07-02 13:13:01,622 p=8817 u=root |  changed: [rhel-02]
+2016-07-02 13:13:01,635 p=8817 u=root |  TASK [debug] *******************************************************************
+2016-07-02 13:13:01,799 p=8817 u=root |  ok: [rhel-02] => {
+    "UpTimeOutput": {
+        "changed": true, 
+        "cmd": [
+            "uptime"
+        ], 
+        "delta": "0:00:00.002707", 
+        "end": "2016-07-02 03:43:01.829362", 
+        "rc": 0, 
+        "start": "2016-07-02 03:43:01.826655", 
+        "stderr": "", 
+        "stdout": " 03:43:01 up 1 day, 26 min,  1 user,  load average: 0.00, 0.01, 0.05", 
+        "stdout_lines": [
+            " 03:43:01 up 1 day, 26 min,  1 user,  load average: 0.00, 0.01, 0.05"
+        ], 
+        "warnings": []
+    }
+}
+2016-07-02 13:13:01,805 p=8817 u=root |  PLAY RECAP *********************************************************************
+2016-07-02 13:13:01,806 p=8817 u=root |  rhel-02                    : ok=2    changed=1    unreachable=0    failed=0   

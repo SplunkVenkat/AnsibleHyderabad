@@ -1,0 +1,8 @@
+rhel-01 ansible_host=54.218.67.171
+rhel-02 ansible_host=54.218.70.194
+rhel-03 ansible_host=54.218.70.7
+deb-01 ansible_host=54.149.181.16 ansible_user=ubuntu
+deb-02 ansible_host=54.218.10.231 ansible_user=ubuntu
+
+[jenkins]
+jenkins-01 ansible_host=54.187.184.197
