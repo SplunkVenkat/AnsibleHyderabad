@@ -10,7 +10,7 @@
 
   tasks:
   - name: Get the File from http
-    get_url: url={{ item }} dest=/etc/ansible mode=0755
+    get_url: url={{ item }} dest=/etc/ansible/ mode=0755
     with_items:
      - "{{ ec2pyurl }}"
      - "{{ ec2iniurl }}"
