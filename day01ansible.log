@@ -1999,3 +1999,55 @@ Should be written as:
 }
 2016-07-02 13:13:01,805 p=8817 u=root |  PLAY RECAP *********************************************************************
 2016-07-02 13:13:01,806 p=8817 u=root |  rhel-02                    : ok=2    changed=1    unreachable=0    failed=0   
+2016-07-03 15:29:24,244 p=11176 u=root |  rhel-01 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-03 15:29:24,246 p=11176 u=root |  rhel-02 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-03 15:29:24,572 p=11176 u=root |  rhel-03 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-03 15:29:24,783 p=11176 u=root |  deb-02 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-03 15:29:24,816 p=11176 u=root |  deb-01 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-03 15:29:44,188 p=11176 u=root |  jenkins-01 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2016-07-03 15:33:13,998 p=11303 u=root |  deb-02 | SUCCESS | rc=0 >>
+ 10:03:13 up 2 days,  2:44,  1 user,  load average: 0.00, 0.01, 0.05
+
+2016-07-03 15:33:14,000 p=11303 u=root |  rhel-01 | SUCCESS | rc=0 >>
+ 06:03:13 up 2 days,  2:46,  1 user,  load average: 0.00, 0.01, 0.05
+
+2016-07-03 15:33:14,001 p=11303 u=root |  deb-01 | SUCCESS | rc=0 >>
+ 10:03:12 up 2 days,  2:44,  1 user,  load average: 0.00, 0.01, 0.05
+
+2016-07-03 15:33:14,012 p=11303 u=root |  rhel-02 | SUCCESS | rc=0 >>
+ 06:03:13 up 2 days,  2:46,  1 user,  load average: 0.00, 0.01, 0.05
+
+2016-07-03 15:33:14,037 p=11303 u=root |  rhel-03 | SUCCESS | rc=0 >>
+ 06:03:13 up 2 days,  2:46,  1 user,  load average: 0.15, 0.06, 0.06
+
+2016-07-03 15:33:22,096 p=11303 u=root |  jenkins-01 | SUCCESS | rc=0 >>
+ 06:03:21 up 1 day, 15:12,  1 user,  load average: 0.00, 0.01, 0.05
+
+2016-07-03 15:34:50,627 p=11364 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2016-07-03 15:35:20,232 p=11369 u=root |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2016-07-05 14:52:14,582 p=14062 u=root |  - downloading role 'Pull-AWS-DynamicInventory', owned by 
+2016-07-05 14:52:17,145 p=14062 u=root |   [WARNING]: - Pull-AWS-DynamicInventory was NOT installed successfully: Role has no
+field named u'owner'
+
+2016-07-05 14:52:17,145 p=14062 u=root |  ERROR! - you can use --ignore-errors to skip failed roles and finish processing the list.
+2016-07-05 14:52:34,056 p=14067 u=root |  - Pull-AWS-DynamicInventory was created successfully
