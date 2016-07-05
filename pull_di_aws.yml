@@ -2,9 +2,12 @@
 - hosts: all
   gather_facts: true
   become: yes
-  vars: 
+  connection: local
+
+  vars:
    ec2pyurl: https://raw.githubusercontent.com/ansible/ansible/devel/contrib/inventory/ec2.py
    ec2iniurl: https://raw.githubusercontent.com/ansible/ansible/devel/contrib/inventory/ec2.ini
+
   tasks:
   - name: Get the File from http
     get_url: url={{ item }} dest=/etc/ansible mode=0755
